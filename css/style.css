@@ -1147,6 +1147,18 @@ header {
   .container_collelcii .carousel-inner .red_color {
     white-space: nowrap;
   }
+  .container_collelcii .carousel-control-prev {
+    left: -8%;
+  }
+  .container_collelcii .carousel-control-prev img {
+    width: 45%;
+  }
+  .container_collelcii .carousel-control-next {
+    right: -8%;
+  }
+  .container_collelcii .carousel-control-next img {
+    width: 45%;
+  }
   .container_consultation .bg_black_button {
     width: 100%;
   }
@@ -1160,6 +1172,18 @@ header {
     right: -8%;
   }
   .container_technicheskie .carousel-control-next img {
+    width: 45%;
+  }
+  .container_otzivi .carousel-control-prev {
+    left: -8%;
+  }
+  .container_otzivi .carousel-control-prev img {
+    width: 45%;
+  }
+  .container_otzivi .carousel-control-next {
+    right: -8%;
+  }
+  .container_otzivi .carousel-control-next img {
     width: 45%;
   }
   .map_frame {

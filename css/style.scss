@@ -1653,6 +1653,19 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
                 white-space: nowrap;
             }
         }
+
+        .carousel-control-prev {
+            left: -8%;
+            img{
+                width: 45%;;
+            }
+        }
+            .carousel-control-next {
+                right:-8%;
+                img{
+                    width: 45%;
+                }
+            }
         }
 
         //CONSULTATION_2
@@ -1679,7 +1692,21 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
             }
         
     }
-
+         //OTZIVI
+         .container_otzivi{
+            .carousel-control-prev {
+                left: -8%;
+                img{
+                    width: 45%;;
+                }
+            }
+                .carousel-control-next {
+                    right:-8%;
+                    img{
+                        width: 45%;
+                    }
+                }
+         }
 
         //KARTA
         .map_frame{
