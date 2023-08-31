@@ -15,21 +15,21 @@
   src: url("../fonts/inter/Inter-Light.otf") format("OpenType"), url("../fonts/inter/Inter-Light.ttf") format("truetype");
   font-weight: 300;
 }
-/*  body {
+/* body {
     background-color: rgb(68, 68, 68);
 }  */
 :root {
-  --custom-blue: #0148E1;
+  --custom-red: #E10148;
 }
 
-.blue_color {
-  color: var(--custom-blue);
+.red_color {
+  color: var(--custom-red);
   padding-top: 10px;
   margin-top: -10px;
 }
 
-.bg_blue {
-  background-color: var(--custom-blue);
+.bg_red {
+  background-color: var(--custom-red);
 }
 
 .bg_black_button {
@@ -38,17 +38,17 @@
 }
 
 .black_button:hover .bg_black_button {
-  fill: #6a716a;
+  fill: #5e5e5e;
   /* новый цвет при наведении */
 }
 
-.bg_blue_button {
-  fill: var(--custom-blue);
+.bg_red_button {
+  fill: var(--custom-red);
   /* изначальный цвет */
 }
 
-.blue_button:hover .bg_blue_button {
-  fill: #5885e6;
+.red_button:hover .bg_red_button {
+  fill: #9b0a38;
   /* новый цвет при наведении */
 }
 
@@ -58,7 +58,7 @@
 }
 
 .white_button:hover .bg_white_button {
-  fill: #3965bf;
+  fill: #E10148;
   /* новый цвет при наведении */
 }
 
@@ -102,6 +102,11 @@ a {
   position: relative;
 }
 
+.arrow_item_2 {
+  left: -40px;
+  position: relative;
+}
+
 .carousel-control-prev {
   left: -160px;
 }
@@ -110,16 +115,17 @@ a {
   right: -160px;
 }
 
-/*  .bg_pattern{
-     background-image: url(../img/pattern.png);
-     background-repeat: repeat;
- } */
+.bg_pattern {
+  background-image: url(../img/pattern.png);
+  background-repeat: repeat;
+}
+
 header {
   box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
 }
 
 .сontainer_header .nav-link:hover {
-  color: #0148E1 !important;
+  color: #E10148 !important;
 }
 
 .img-wrapper {
@@ -127,7 +133,7 @@ header {
 }
 
 .bi-list {
-  background-color: var(--custom-blue);
+  background-color: var(--custom-red);
   color: white;
 }
 
@@ -142,16 +148,12 @@ header {
 .container_baner .fs-3xl-23 {
   font-weight: 300;
 }
-.container_baner ::marker {
-  unicode-bidi: isolate;
-  font-variant-numeric: tabular-nums;
-  text-transform: none;
-  text-indent: 0px !important;
-  text-align: start !important;
-  -moz-text-align-last: start !important;
-       text-align-last: start !important;
-  color: #3cf50e;
-  border: 3px solid green;
+.container_baner li {
+  list-style-type: none; /* Убираем маркеры */
+}
+.container_baner ul {
+  margin-left: -10px; /* Отступ слева в браузере IE и Opera */
+  padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
 }
 .container_baner .carousel-indicators [data-bs-target] {
   box-sizing: content-box;
@@ -163,13 +165,17 @@ header {
   margin-left: 3px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #4a6ab0;
+  background-color: #6b0526;
   background-clip: padding-box;
   border: 0;
   border-top-color: currentcolor;
 }
 .container_baner .me-1 {
   margin-right: -3px !important;
+}
+
+.container_mobile_cards button {
+  box-shadow: 3px 3px 5px 0px rgb(43, 40, 43);
 }
 
 /* .bg_section{
@@ -213,10 +219,22 @@ header {
 }
 
 .container_besplatniy .zamer_item {
-  margin-top: -30px;
+  margin-top: -15px;
 }
 .container_besplatniy .ms-18 {
   margin-top: -12px;
+}
+
+.bg_section_2 {
+  background-image: url("../img/background_3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg_section_5 {
+  background-image: url("../img/background_5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container_photos .img_item:hover {
@@ -232,12 +250,18 @@ header {
   color: white;
 }
 .card .heart_item:hover {
-  fill: #5885e6;
+  fill: #E10148;
   cursor: pointer;
 }
 
 .container_kak_zakazat .mb-0 {
-  color: var(--custom-blue);
+  color: var(--custom-red);
+}
+
+.bg_section_4 {
+  background-image: url("../img/background_4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container_collelcii .px-10:hover {
@@ -250,10 +274,10 @@ header {
 }
 
 .container_ponaznacheniu .btn-outline-secondary:hover {
-  background-color: var(--custom-blue) !important;
+  background-color: var(--custom-red) !important;
 }
 
-.bg_section_2 {
+.bg_section_3 {
   background-image: url("../img/background_2.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -264,6 +288,18 @@ header {
 }
 .container_populyarnie ul {
   padding-left: 0; /* Сдвигаем список влево */
+}
+
+.bg_section_6 {
+  background-image: url("../img/background_6.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg_section_7 {
+  background-image: url("../img/background_7.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container_otzivi .white_button {
@@ -283,12 +319,18 @@ header {
   margin-top: -5px;
 }
 
-.map_baner li {
-  list-style-type: var(--custom-blue); /* Убираем маркеры */
+.container_map .map_baner li {
+  list-style-type: var(--custom-red); /* Убираем маркеры */
+}
+.container_map li::marker {
+  color: #E10148;
+}
+.container_map .map {
+  height: 600px;
 }
 
-.map {
-  height: 600px;
+:focus {
+  outline: none;
 }
 
 @media (max-width: 1800px) {
@@ -363,11 +405,27 @@ header {
     width: 148px;
     height: 37px;
   }
-  .container_baner .bg_blue_button {
+  .container_baner .bg_red_button {
     width: 153px;
     height: 38px;
   }
   .container_baner .blue_logo {
+    width: 15%;
+  }
+  .container_baner .arrow_item {
+    left: -40px;
+    position: relative;
+  }
+  .container_baner .carousel-control-prev {
+    left: -105px;
+  }
+  .container_baner .carousel-control-prev img {
+    width: 15%;
+  }
+  .container_baner .carousel-control-next {
+    right: -105px;
+  }
+  .container_baner .carousel-control-next img {
     width: 15%;
   }
   .container_vhodnie .icons_items {
@@ -468,7 +526,7 @@ header {
     width: 135px;
     height: 41px;
   }
-  .сontainer_header .bg_blue_button {
+  .сontainer_header .bg_red_button {
     width: 135px;
     height: 41px;
   }
@@ -476,7 +534,7 @@ header {
     width: 136px;
     height: 36px;
   }
-  .container_baner .bg_blue_button {
+  .container_baner .bg_red_button {
     width: 137px;
     height: 38px;
   }
@@ -486,6 +544,18 @@ header {
   .container_baner .carousel-indicators [data-bs-target] {
     width: 10px;
     height: 3px;
+  }
+  .container_baner .carousel-control-prev {
+    left: -105px;
+  }
+  .container_baner .carousel-control-prev img {
+    width: 17%;
+  }
+  .container_baner .carousel-control-next {
+    right: -105px;
+  }
+  .container_baner .carousel-control-next img {
+    width: 17%;
   }
   .container_metal .miniframe {
     width: 66px;
@@ -510,7 +580,7 @@ header {
     width: 244px;
     height: 72px;
   }
-  .container_technicheskie .bg_blue_button {
+  .container_technicheskie .bg_red_button {
     width: 200px;
     height: 50px;
   }
@@ -531,11 +601,15 @@ header {
     height: 25px;
   }
   .container_besplatniy .input_item {
-    width: 243px;
-    height: 65px;
+    width: 245px;
+    height: 62px;
   }
   .container_besplatniy .zamer_item {
+    margin-top: -24px;
     width: 121%;
+  }
+  .container_besplatniy .order-last {
+    margin-top: -2px;
   }
   .container_photos .ratio-4x4 {
     min-height: 130px !important;
@@ -560,11 +634,11 @@ header {
     width: 90px;
     height: 25px;
   }
-  .container_kak_zakazat .bg_blue_button {
+  .container_kak_zakazat .bg_red_button {
     width: 200px;
     height: 50px;
   }
-  .container_consultation .bg_blue_button {
+  .container_consultation .bg_red_button {
     width: 250px;
     height: 80px;
   }
@@ -585,18 +659,34 @@ header {
   }
 }
 @media (max-width: 992px) {
+  .container_baner .arrow_item {
+    left: -40px;
+    position: relative;
+  }
+  .container_baner .carousel-control-prev {
+    left: -80px;
+  }
+  .container_baner .carousel-control-prev img {
+    width: 23%;
+  }
+  .container_baner .carousel-control-next {
+    right: -80px;
+  }
+  .container_baner .carousel-control-next img {
+    width: 23%;
+  }
   .arrow_item {
     left: -40px;
     position: relative;
   }
   .carousel-control-prev {
-    left: -100px;
+    left: -80px;
   }
   .carousel-control-prev img {
     width: 80%;
   }
   .carousel-control-next {
-    right: -100px;
+    right: -80px;
   }
   .carousel-control-next img {
     width: 80%;
@@ -624,7 +714,7 @@ header {
     width: 174px;
     height: 68px;
   }
-  .container_technicheskie .bg_blue_button {
+  .container_technicheskie .bg_red_button {
     width: 180px;
     height: 50px;
   }
@@ -669,7 +759,7 @@ header {
   .container_collelcii .justify-content-center .bg_white_button {
     width: 100%;
   }
-  .container_kak_zakazat .bg_blue_button {
+  .container_kak_zakazat .bg_red_button {
     width: 180px;
     height: 50px;
   }
@@ -685,6 +775,22 @@ header {
   }
 }
 @media (max-width: 768px) {
+  .container_baner .arrow_item {
+    left: -40px;
+    position: relative;
+  }
+  .container_baner .carousel-control-prev {
+    left: -80px;
+  }
+  .container_baner .carousel-control-prev img {
+    width: 30%;
+  }
+  .container_baner .carousel-control-next {
+    right: -80px;
+  }
+  .container_baner .carousel-control-next img {
+    width: 30%;
+  }
   .container_metal .miniframe {
     width: 60px;
     height: 25px;
@@ -795,7 +901,7 @@ header {
   .container_vhodnie .arrow_item {
     left: -16px;
     position: relative;
-    width: 6%;
+    width: 7%;
   }
   .container_metal .miniframe {
     width: 50px;
@@ -904,7 +1010,7 @@ header {
   .container_ponaznacheniu .arrow_item {
     left: -5px;
     position: relative;
-    width: 7%;
+    width: 6%;
   }
   .container_besplatniy .input_item3 {
     margin-left: -5%;
@@ -935,7 +1041,7 @@ header {
   .container_hudojestvenaya .arrow_item {
     left: -5px;
     position: relative;
-    width: 8%;
+    width: 7%;
   }
   .container_otzivi .arrow_item {
     left: -5px;
@@ -961,16 +1067,16 @@ header {
 }
 @media (max-width: 450px) {
   .container_vhodnie .carousel-control-prev {
-    left: -10%;
+    left: -11%;
   }
   .container_vhodnie .carousel-control-prev img {
-    width: 35%;
+    width: 45%;
   }
   .container_vhodnie .carousel-control-next {
-    right: -10%;
+    right: -11%;
   }
   .container_vhodnie .carousel-control-next img {
-    width: 35%;
+    width: 45%;
   }
   .container_vhodnie .carousel-control-prev, .container_vhodnie .carousel-control-next {
     margin-top: -50px;
@@ -1038,11 +1144,23 @@ header {
     margin-top: -8%;
     width: 100%;
   }
-  .container_collelcii .carousel-inner .blue_color {
+  .container_collelcii .carousel-inner .red_color {
     white-space: nowrap;
   }
   .container_consultation .bg_black_button {
     width: 100%;
+  }
+  .container_technicheskie .carousel-control-prev {
+    left: -8%;
+  }
+  .container_technicheskie .carousel-control-prev img {
+    width: 45%;
+  }
+  .container_technicheskie .carousel-control-next {
+    right: -8%;
+  }
+  .container_technicheskie .carousel-control-next img {
+    width: 45%;
   }
   .map_frame {
     width: 60%;

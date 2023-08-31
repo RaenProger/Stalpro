@@ -25,17 +25,17 @@
         font-weight: 300;
     }
 
-/*  body {
+ /* body {
     background-color: rgb(68, 68, 68);
 }  */
 
 //MAIN COLORS
 :root {
-    --custom-blue: #0148E1;
+    --custom-red: #E10148;
 }
 
-.blue_color{
-    color:var(--custom-blue);
+.red_color{
+    color:var(--custom-red);
     padding-top: 10px;
     margin-top: -10px;
 }
@@ -43,8 +43,8 @@
 
 
 
-.bg_blue {
-    background-color: var(--custom-blue);
+.bg_red {
+    background-color: var(--custom-red);
 }
 
 //Black_button
@@ -54,18 +54,18 @@
 }
 
 .black_button:hover .bg_black_button {
-    fill: #6a716a;
+    fill: #5e5e5e;
     /* новый цвет при наведении */
 }
 
-//Blue_button
-.bg_blue_button {
-    fill: var(--custom-blue);
+//red_button
+.bg_red_button {
+    fill: var(--custom-red);
     /* изначальный цвет */
 }
 
-.blue_button:hover .bg_blue_button {
-    fill: #5885e6;
+.red_button:hover .bg_red_button {
+    fill: #9b0a38;
     /* новый цвет при наведении */
 }
 
@@ -77,7 +77,7 @@
 }
 
 .white_button:hover .bg_white_button {
-    fill: #3965bf;
+    fill: #E10148;
     /* новый цвет при наведении */
 }
 
@@ -127,7 +127,10 @@ a {
     left: -40px;
     position: relative;
 }
-
+    .arrow_item_2{
+        left: -40px;
+        position: relative;
+    }
 .carousel-control-prev{
     left:-160px;
  }
@@ -138,14 +141,14 @@ a {
 
 
 
- 
 
 
 
-   /*  .bg_pattern{
+
+ .bg_pattern{
         background-image: url(../img/pattern.png);
         background-repeat: repeat;
-    } */
+    } 
 
 //HEADER
 header{
@@ -156,7 +159,7 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
 .сontainer_header{
     
     .nav-link:hover{
-        color: #0148E1 !important;
+        color: #E10148!important;
     }
 }
 
@@ -165,7 +168,7 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
   }
   
   .bi-list{
-    background-color:var(--custom-blue);
+    background-color:var(--custom-red);
     color: white;
   }
 
@@ -188,16 +191,16 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
     
 
     //MARKER
- ::marker {
-    unicode-bidi: isolate;
-    font-variant-numeric: tabular-nums;
-    text-transform: none;
-    text-indent: 0px !important;
-    text-align: start !important;
-    text-align-last: start !important;
-    color: #3cf50e;
-    border: 3px solid green;
-  }
+    li {
+        list-style-type: none; /* Убираем маркеры */
+       }
+
+      
+
+       ul {
+        margin-left: -10px; /* Отступ слева в браузере IE и Opera */
+        padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+       }
     .carousel-indicators [data-bs-target] {
         box-sizing: content-box;
         flex: 0 1 auto;
@@ -208,7 +211,7 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
         margin-left: 3px;
         text-indent: -999px;
         cursor: pointer;
-        background-color:#4a6ab0;
+        background-color:#6b0526;
         background-clip: padding-box;
         border: 0;
           border-top-color: currentcolor;
@@ -218,79 +221,89 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
       }
 }
 
-
-//VHODNIE DVERI
-/* .bg_section{
-    background-image: url('../img/background_1.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
-.container_vhodnie{
-   
-   .dot_items{
-    opacity: 0.7;
-    filter: alpha(opacity=50);
-   }
-   .dot_items:hover{
-    transition: 0.1s;
-    transform: scale(1.1);
-    opacity: 1;
-    filter: alpha(opacity=50);
-   }
-
-  
-
-   .pb-50 {
-    padding-bottom: 6rem !important;
-  }
-
-  .image_item:hover{
-        cursor: pointer;
-        transition: 0.3s;
-        transform: scale(1.1);
-  }
-  
-
+//MOBILE_CARDS
+.container_mobile_cards{
+    button{
+        -webkit-box-shadow: 3px 3px 5px 0px rgba(43,40,43,1);
+        -moz-box-shadow: 3px 3px 5px 0px rgba(43,40,43,1);
+        box-shadow: 3px 3px 5px 0px rgba(43,40,43,1);
+    }
 }
 
 
 
-//METAL DVERI
+            //VHODNIE DVERI
+            /* .bg_section{
+                background-image: url('../img/background_1.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+            } */
+            .container_vhodnie{
+            
+            .dot_items{
+                opacity: 0.7;
+                filter: alpha(opacity=50);
+            }
+            .dot_items:hover{
+                transition: 0.1s;
+                transform: scale(1.1);
+                opacity: 1;
+                filter: alpha(opacity=50);
+            }
 
-.container_metal{
-    .mb-10{
-            max-width: 70%;
-    }
-    .mt-20:hover{
-        cursor: pointer;
-    }
+            
+
+            .pb-50 {
+                padding-bottom: 6rem !important;
+            }
+
+            .image_item:hover{
+                    cursor: pointer;
+                    transition: 0.3s;
+                    transform: scale(1.1);
+            }
+            
+
+            }
 
 
 
-   .favorite_item{
-    fill: red;
-   }
+            //METAL DVERI
 
-}
+            .container_metal{
+                .mb-10{
+                        max-width: 70%;
+                }
+                .mt-20:hover{
+                    cursor: pointer;
+                }
 
 
-//TECHNICHESKIE DVERI
-.container_technicheskie{
-    .image_item:hover{
-        cursor: pointer;
-        transition: 0.3s;
-        transform: scale(1.1);
-    }
-  
-   
-}
+
+            .favorite_item{
+                fill: red;
+            }
+
+            }
+
+
+            //TECHNICHESKIE DVERI
+            .container_technicheskie{
+                .image_item:hover{
+                    cursor: pointer;
+                    transition: 0.3s;
+                    transform: scale(1.1);
+                }
+            
+            
+            }
 
 
 
 //BESPLATNIY ZAMER
 .container_besplatniy{
     .zamer_item{
-        margin-top: -30px;
+        margin-top: -15px;
     }
     .ms-18{
         margin-top: -12px;
@@ -298,6 +311,19 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
 }
 
 
+//MOY DOM
+.bg_section_2{
+    background-image: url('../img/background_3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+        //SVARNIE RESHETKI
+        .bg_section_5{
+            background-image: url('../img/background_5.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
 
  //PHOTOS
  .container_photos{
@@ -322,7 +348,7 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
 }
 
 .heart_item:hover{
-    fill: #5885e6;
+    fill: #E10148;
     cursor: pointer;
 }
 
@@ -333,9 +359,18 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
 //KAK_ZAKAZAT
 .container_kak_zakazat{
     .mb-0{
-        color:var(--custom-blue);
+        color:var(--custom-red);
     }
     
+}
+
+
+//NEPUSTIM
+
+.bg_section_4{
+    background-image: url('../img/background_4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 //KOLLEKCII
@@ -354,13 +389,13 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
 //PO NAZNACHENIyU
 .container_ponaznacheniu{
     .btn-outline-secondary:hover {
-        background-color: var(--custom-blue) !important;
+        background-color: var(--custom-red) !important;
       }
 }
 
 
 //CONSULTATION
-.bg_section_2{
+.bg_section_3{
     background-image: url('../img/background_2.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -376,6 +411,24 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
         padding-left: 0; /* Сдвигаем список влево */
        }
 }
+
+
+//IZGOTVLENIE I MONTAZH
+
+.bg_section_6{
+    background-image: url('../img/background_6.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+//NEPUSTIM
+
+    .bg_section_7{
+        background-image: url('../img/background_7.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 
 
         //OTZIVI
@@ -400,16 +453,25 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
 
 
             //KARTA
+            .container_map{
             .map_baner{
                 li {
-                    list-style-type: var(--custom-blue); /* Убираем маркеры */
+                    list-style-type: var(--custom-red); /* Убираем маркеры */
                 }
             }
+
+            li::marker {
+                color:#E10148;;
+              }
             
             .map {
                 height: 600px;
             }
+        }
 
+        :focus{
+            outline: none;
+            }
 
 
   // MEDIA QUERIES
@@ -526,13 +588,32 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
             width: 148px;
             height: 37px;
            }
-       .bg_blue_button{
+       .bg_red_button{
         width: 153px;
         height: 38px;
        }
        .blue_logo{
         width: 15%;
        }
+         //ARROWS
+         .arrow_item{
+            left: -40px;
+            position: relative;
+        }
+
+        .carousel-control-prev{
+            left:-105px;
+            img{
+                width: 15%;
+            }
+        }
+        
+        .carousel-control-next{
+        right:-105px;
+        img{
+            width: 15%;
+        }
+        }
     }
 
     //VHODNIE DVERI
@@ -679,7 +760,7 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
                                 width: 135px;
                                 height: 41px;
                             }
-                            .bg_blue_button{
+                            .bg_red_button{
                                 width: 135px;
                                 height: 41px;
                             }
@@ -692,7 +773,7 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
                                 width: 136px;
                                 height: 36px;
                             }
-                        .bg_blue_button{
+                        .bg_red_button{
                             width: 137px;
                             height: 38px;
                         }
@@ -704,7 +785,19 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
                             width: 10px;
                             height: 3px;
                         }
-
+                        .carousel-control-prev{
+                            left:-105px;
+                            img{
+                                width: 17%;
+                            }
+                        }
+                        
+                        .carousel-control-next{
+                        right:-105px;
+                        img{
+                            width: 17%;
+                        }
+                        }
 
                         }
                     //METAL DVERI
@@ -740,7 +833,7 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
 
                                 //TECHNICHESKIE DVERI
                                     .container_technicheskie{
-                                        .bg_blue_button{
+                                        .bg_red_button{
                                             width: 200px;
                                             height: 50px;
                                         }
@@ -768,13 +861,20 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
                                     //BESPLATNIY ZAMER
                                     .container_besplatniy{
                                         .input_item{
-                                            width: 243px;
-                                            height: 65px;
+                                            width: 245px;
+                                            height: 62px;
                                     }
                                     .zamer_item{
+                                        margin-top: -24px;
                                         width: 121%;
                                     }
+                                    .order-last{
+                                        margin-top: -2px;
                                     }
+                                    }
+
+
+                                    
 
                                     //PHOTOS
                                         .container_photos{
@@ -813,13 +913,13 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
                                     
                                     //KAK ZAKAZAT
                                     .container_kak_zakazat{
-                                        .bg_blue_button{
+                                        .bg_red_button{
                                             width: 200px;
                                             height: 50px;
                                         }
                                     }
                                     .container_consultation{
-                                        .bg_blue_button{
+                                        .bg_red_button{
                                             width: 250px;
                                             height: 80px;
                                         }
@@ -856,6 +956,28 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
 
    
                 @media (max-width: 992px){
+
+                    //BANER
+                    .container_baner{
+                        .arrow_item{
+                            left: -40px;
+                            position: relative;
+                        }
+            
+                        .carousel-control-prev{
+                            left:-80px;
+                            img{
+                                width: 23%;
+                            }
+                        }
+                        .carousel-control-next{
+                            right:-80px;
+                            img{
+                            width: 23%;
+                            }
+                    }
+                }
+
                 //VHODNIE DVERI
 
             //ARROWS
@@ -865,13 +987,13 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
             }
 
             .carousel-control-prev{
-                left:-100px;
+                left:-80px;
                 img{
                     width: 80%;
                 }
             }
             .carousel-control-next{
-                right:-100px;
+                right:-80px;
                 img{
                 width: 80%;
                 }
@@ -912,7 +1034,7 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
 
                 //TECHNICHESKIE DVERI
                 .container_technicheskie{
-                    .bg_blue_button{
+                    .bg_red_button{
                         width: 180px;
                         height: 50px;
                        }
@@ -977,7 +1099,7 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
                 }
                   //KAK ZAKAZAT
                   .container_kak_zakazat{
-                    .bg_blue_button{
+                    .bg_red_button{
                         width: 180px;
                         height: 50px;
                        }
@@ -1003,6 +1125,28 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
 
 
     @media (max-width: 768px){ 
+
+         //BANER
+         .container_baner{
+            .arrow_item{
+                left: -40px;
+                position: relative;
+            }
+
+            .carousel-control-prev{
+                left:-80px;
+                img{
+                    width: 30%;
+                }
+            }
+            .carousel-control-next{
+                right:-80px;
+                img{
+                width: 30%;
+                }
+        }
+    }
+
         //METAL DVERI
        .container_metal{
         .miniframe{
@@ -1165,7 +1309,7 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
             .arrow_item{
                 left: -16px;
                 position: relative;
-                width: 6%;
+                width: 7%;
             }
             }
 
@@ -1310,7 +1454,7 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
         .arrow_item{
             left: -5px;
             position: relative;
-            width: 7%;
+            width: 6%;
         }
     }
 
@@ -1363,7 +1507,7 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
         .arrow_item {
             left: -5px;
             position: relative;
-            width: 8%;
+            width: 7%;
           }
     }
 
@@ -1411,15 +1555,15 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
         //VHODNIE DVERI
        .container_vhodnie{
         .carousel-control-prev {
-            left: -10%;
+            left: -11%;
             img{
-                width: 35%;;
+                width: 45%;;
             }
         }
             .carousel-control-next {
-                right:-10%;
+                right:-11%;
                 img{
-                    width: 35%;
+                    width: 45%;
                 }
             }
           .carousel-control-prev, .carousel-control-next {
@@ -1505,7 +1649,7 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
                 margin-top: -8%;
                 width: 100%;
             }
-            .blue_color {
+            .red_color {
                 white-space: nowrap;
             }
         }
@@ -1517,6 +1661,25 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
                 width: 100%;
             }
         }
+
+
+         //TECHNICHESKIE DVERI
+       .container_technicheskie{
+        .carousel-control-prev {
+            left: -8%;
+            img{
+                width: 45%;;
+            }
+        }
+            .carousel-control-next {
+                right:-8%;
+                img{
+                    width: 45%;
+                }
+            }
+        
+    }
+
 
         //KARTA
         .map_frame{
