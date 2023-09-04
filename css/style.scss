@@ -2,7 +2,7 @@
 
 /*--------------------*/
 
-/* *{outline:1px solid red!important} */
+*{outline:1px solid red!important} 
 
 //IBM 3270
 @font-face {
@@ -142,6 +142,10 @@ a {
 
 
 
+ //INPUT
+ input{
+    background: transparent;
+}
 
 
 
@@ -324,6 +328,19 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
     }
     .ms-18{
         margin-top: -12px;
+    }
+   
+    .input_item1{
+     height: 104px;
+     width: 580px;
+    }
+    .input_item2{
+        height: 105px;
+        width: 530px;
+       }
+    .input_item3{
+        height: 105px;
+        width: 475px;
     }
 }
 
@@ -1244,19 +1261,16 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
      //BESPLATNIY ZAMER
      .container_besplatniy{
         .input_item1{
-            margin-left: -20%;
-            width: 140%;
+            width: 100%;
             height:50%;
         }
 
         .input_item2{
-            margin-left: -12%;
-            width: 126%;
+            width: 100%;
             height:50%;
         }
         .input_item3{
-            margin-left: -5%;
-            width: 120%;
+            width: 100%;
             height:50%;
         }
         .card-img-overlay_item{
@@ -1463,14 +1477,7 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
         }
     }
 
-     //BESPLATNIY ZAMER
-     .container_besplatniy{
-        .input_item3{
-            margin-left: -5%;
-            width: 112%;
-            height:50%;
-        }
-     }
+   
 
     //CONSULTATION_2
     .container_consultation{
@@ -1681,6 +1688,16 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
             }
         }
 
+
+                //BESPLATNIY ZAMER
+            .container_besplatniy{ 
+                .pt-14{
+                    padding-top: 18px !important;
+                }
+                .pt-7{
+                  padding-top: 7px !important;
+                }
+            }
 
          //TECHNICHESKIE DVERI
        .container_technicheskie{
