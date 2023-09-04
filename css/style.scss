@@ -2,7 +2,7 @@
 
 /*--------------------*/
 
-/* *{outline:1px solid red!important}  */
+/*  *{outline:1px solid red!important}  */ 
 
 //IBM 3270
 @font-face {
@@ -1567,22 +1567,45 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
         //VHODNIE DVERI
        .container_vhodnie{
         .carousel-control-prev {
-            left: -11%;
+            left: -1%;
             img{
                 width: 45%;;
             }
         }
             .carousel-control-next {
-                right:-11%;
+                right:-1%;
                 img{
                     width: 45%;
                 }
+                
             }
           .carousel-control-prev, .carousel-control-next {
             margin-top: -50px;
           }
+
+          .carousel-control-prev {
+            color: #fff;
+            text-align: center;
+            margin-left: -30px;
+          }
+        .carousel-control-next {
+            color: #fff;
+            text-align: center;
+            margin-right: -30px;
+          }
     }
-       
+  
+
+    .carousel-control-prev {
+        color: #fff;
+        text-align: center;
+        margin-left: -23px;
+      }
+    .carousel-control-next {
+        color: #fff;
+        text-align: center;
+        margin-right: -23px;
+      }
 
          //METAL DVERI
        .container_metal{
@@ -1615,6 +1638,7 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
             .fs-5{
                 font-size: 9px !important;
             }
+            
             .f-s{
                 margin-left: -7px;
             }
@@ -1668,13 +1692,13 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
         }
 
         .carousel-control-prev {
-            left: -8%;
+            left: -1%;
             img{
                 width: 45%;;
             }
         }
             .carousel-control-next {
-                right:-8%;
+                right:-1%;
                 img{
                     width: 45%;
                 }
@@ -1702,13 +1726,13 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
          //TECHNICHESKIE DVERI
        .container_technicheskie{
         .carousel-control-prev {
-            left: -8%;
+            left: -1%;
             img{
                 width: 45%;;
             }
         }
             .carousel-control-next {
-                right:-8%;
+                right:-1%;
                 img{
                     width: 45%;
                 }
@@ -1718,13 +1742,13 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
          //OTZIVI
          .container_otzivi{
             .carousel-control-prev {
-                left: -8%;
+                left: -1%;
                 img{
                     width: 45%;;
                 }
             }
                 .carousel-control-next {
-                    right:-8%;
+                    right:-1%;
                     img{
                         width: 45%;
                     }

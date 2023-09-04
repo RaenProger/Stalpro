@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*--------------------*/
-/* *{outline:1px solid red!important}  */
+/*  *{outline:1px solid red!important}  */
 @font-face {
   font-family: "IBM3270";
   src: url("../fonts/ibm3270/3270-Regular.ttf") format("truetype"), url("../fonts/ibm3270/3270-Regular.otf") format("OpenTypef");
@@ -1080,19 +1080,39 @@ header {
 }
 @media (max-width: 450px) {
   .container_vhodnie .carousel-control-prev {
-    left: -11%;
+    left: -1%;
   }
   .container_vhodnie .carousel-control-prev img {
     width: 45%;
   }
   .container_vhodnie .carousel-control-next {
-    right: -11%;
+    right: -1%;
   }
   .container_vhodnie .carousel-control-next img {
     width: 45%;
   }
   .container_vhodnie .carousel-control-prev, .container_vhodnie .carousel-control-next {
     margin-top: -50px;
+  }
+  .container_vhodnie .carousel-control-prev {
+    color: #fff;
+    text-align: center;
+    margin-left: -30px;
+  }
+  .container_vhodnie .carousel-control-next {
+    color: #fff;
+    text-align: center;
+    margin-right: -30px;
+  }
+  .carousel-control-prev {
+    color: #fff;
+    text-align: center;
+    margin-left: -23px;
+  }
+  .carousel-control-next {
+    color: #fff;
+    text-align: center;
+    margin-right: -23px;
   }
   .container_metal .heart_item {
     width: 20px;
@@ -1162,13 +1182,13 @@ header {
     white-space: nowrap;
   }
   .container_collelcii .carousel-control-prev {
-    left: -8%;
+    left: -1%;
   }
   .container_collelcii .carousel-control-prev img {
     width: 45%;
   }
   .container_collelcii .carousel-control-next {
-    right: -8%;
+    right: -1%;
   }
   .container_collelcii .carousel-control-next img {
     width: 45%;
@@ -1183,25 +1203,25 @@ header {
     padding-top: 7px !important;
   }
   .container_technicheskie .carousel-control-prev {
-    left: -8%;
+    left: -1%;
   }
   .container_technicheskie .carousel-control-prev img {
     width: 45%;
   }
   .container_technicheskie .carousel-control-next {
-    right: -8%;
+    right: -1%;
   }
   .container_technicheskie .carousel-control-next img {
     width: 45%;
   }
   .container_otzivi .carousel-control-prev {
-    left: -8%;
+    left: -1%;
   }
   .container_otzivi .carousel-control-prev img {
     width: 45%;
   }
   .container_otzivi .carousel-control-next {
-    right: -8%;
+    right: -1%;
   }
   .container_otzivi .carousel-control-next img {
     width: 45%;
