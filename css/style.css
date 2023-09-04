@@ -1094,25 +1094,17 @@ header {
   .container_vhodnie .carousel-control-prev, .container_vhodnie .carousel-control-next {
     margin-top: -50px;
   }
-  .container_vhodnie .carousel-control-prev {
-    color: #fff;
-    text-align: center;
-    margin-left: -30px;
+  .container_vhodnie .prev {
+    margin-left: -50px;
   }
-  .container_vhodnie .carousel-control-next {
-    color: #fff;
-    text-align: center;
-    margin-right: -30px;
+  .container_vhodnie .next {
+    margin-right: -50px;
   }
-  .carousel-control-prev {
-    color: #fff;
-    text-align: center;
-    margin-left: -23px;
+  .prev {
+    margin-left: -40px;
   }
-  .carousel-control-next {
-    color: #fff;
-    text-align: center;
-    margin-right: -23px;
+  .next {
+    margin-right: -40px;
   }
   .container_metal .heart_item {
     width: 20px;
