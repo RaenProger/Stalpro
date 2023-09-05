@@ -1539,7 +1539,14 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
         }
     }
 
-  
+    //SCHEMA ZAKAZA
+    .container_schema_zakaza{
+        .arrow_item{
+            left: -5px;
+            position: relative;
+            width: 6%;
+        }
+    }
   }
   
 
