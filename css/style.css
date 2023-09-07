@@ -8,6 +8,11 @@
 }
 @font-face {
   font-family: "Inter";
+  src: url("../fonts/inter/Inter-SemiBold.otf") format("OpenType"), url("../fonts/inter/Inter-SemiBold.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Inter";
   src: url("../fonts/inter/Inter-Regular.otf") format("OpenType"), url("../fonts/inter/Inter-Regular.ttf") format("truetype");
   font-weight: 400;
 }
@@ -1138,7 +1143,7 @@ header {
     padding-top: 6px !important;
   }
   .container_metal .fs-5 {
-    margin-left: -6px;
+    margin-left: -8px;
     font-size: 11px !important;
   }
   .container_metal .f-s {
@@ -1155,6 +1160,10 @@ header {
     width: 20px;
     height: 20px;
   }
+  .container_technicheskie .miniframe {
+    width: 40px;
+    height: 15px;
+  }
   .container_technicheskie .mt-10 {
     margin-top: 5px !important;
   }
@@ -1167,11 +1176,13 @@ header {
     padding-top: 5px !important;
     font-size: 12px !important;
   }
-  .container_technicheskie .pt-5 {
-    padding-top: 6px !important;
-  }
   .container_technicheskie .fs-5 {
-    font-size: 9px !important;
+    margin-left: -10px;
+    font-size: 11px !important;
+  }
+  .container_technicheskie .f-s {
+    font-size: 8px !important;
+    margin-left: -7px;
   }
   .container_collelcii .carousel-inner .top_frame__item {
     margin-top: -8%;
@@ -1212,6 +1223,16 @@ header {
   }
   .container_technicheskie .carousel-control-next img {
     width: 45%;
+  }
+  .container_technicheskie img {
+    width: 10%;
+  }
+  .container_photos .bg_white_button {
+    width: 250px;
+    height: 45px;
+  }
+  .container_kak_zakazat .img_item {
+    width: 20%;
   }
   .container_otzivi .carousel-control-prev {
     left: -1%;
