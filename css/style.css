@@ -125,10 +125,11 @@ input {
   background: transparent;
 }
 
-/*  .bg_pattern{
-        background-image: url(../img/pattern.png);
-        background-repeat: repeat;
-    }  */
+.bg_pattern {
+  background-image: url(../img/pattern.png);
+  background-repeat: repeat;
+}
+
 header {
   box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
 }
@@ -222,8 +223,8 @@ header {
 }
 
 .container_consultation .input_item1 {
-  height: 103px;
-  width: 592px;
+  height: 104px;
+  width: 590px;
 }
 .container_consultation .input_item2 {
   height: 104px;
@@ -257,6 +258,12 @@ header {
 .container_besplatniy .input_item3 {
   height: 105px;
   width: 475px;
+}
+
+.zamerchik_item {
+  width: 150px;
+  height: 180px;
+  margin-top: 20px;
 }
 
 .bg_section_2 {
@@ -365,12 +372,6 @@ header {
 
 :focus {
   outline: none;
-}
-
-.zamerchik_item {
-  width: 150px;
-  height: 200px;
-  margin-top: 20px;
 }
 
 @media (max-width: 1800px) {
@@ -693,6 +694,10 @@ header {
   .container_photos2 .ratio-4x4 {
     min-height: 150px !important;
   }
+  .container_hudojestvenaya .bg_red_button {
+    width: 200px;
+    height: 50px;
+  }
   .container_otzivi .bg_white_button {
     width: 180px;
     height: 20px;
@@ -906,7 +911,7 @@ header {
     position: relative !important;
   }
   .container_photos .ratio-4x4 {
-    min-height: 200px !important;
+    min-height: 150px !important;
   }
   .container_collelcii .carousel-inner .top_frame__item {
     width: 250px;
@@ -921,7 +926,7 @@ header {
     height: 42px;
   }
   .container_collelcii .container_photos2 .ratio-4x4 {
-    min-height: 200px !important;
+    min-height: 150px !important;
   }
   .container_consultation .bg_black_button {
     width: 100%;
@@ -997,7 +1002,7 @@ header {
     width: 9%;
   }
   .container_photos .ratio-4x4 {
-    min-height: 150px !important;
+    min-height: 100px !important;
   }
   .container_photos .arrow_item {
     left: -5px;
@@ -1036,6 +1041,9 @@ header {
     position: relative;
     width: 7%;
   }
+  .container_collelcii .carousel-inner .fs-5 {
+    white-space: nowrap;
+  }
   .container_ponaznacheniu .arrow_item {
     left: -5px;
     position: relative;
@@ -1045,7 +1053,7 @@ header {
     width: 100%;
   }
   .container_photos2 .ratio-4x4 {
-    min-height: 150px !important;
+    min-height: 100px !important;
   }
   .container_photos2 .arrow_item {
     left: -5px;
@@ -1209,6 +1217,10 @@ header {
   .container_collelcii .carousel-control-next img {
     width: 45%;
   }
+  .container_collelcii .fs-5 {
+    margin-left: -10px;
+    font-size: 11px !important;
+  }
   .container_consultation .bg_black_button {
     width: 100%;
   }
@@ -1230,9 +1242,6 @@ header {
   .container_technicheskie .carousel-control-next img {
     width: 45%;
   }
-  .container_technicheskie img {
-    width: 10%;
-  }
   .container_photos .bg_white_button {
     width: 250px;
     height: 45px;
@@ -1241,16 +1250,20 @@ header {
     width: 20%;
   }
   .container_otzivi .carousel-control-prev {
-    left: -1%;
+    left: -6%;
   }
   .container_otzivi .carousel-control-prev img {
     width: 45%;
   }
   .container_otzivi .carousel-control-next {
-    right: -1%;
+    right: -6%;
   }
   .container_otzivi .carousel-control-next img {
     width: 45%;
+  }
+  .bg_section_3 {
+    background-image: none;
+    background-color: #ebeced;
   }
   .map_frame {
     width: 60%;
@@ -1261,5 +1274,8 @@ header {
   .container_footer .bg_black_button {
     width: 130%;
     height: 90%;
+  }
+  .down_arrow {
+    width: 10%;
   }
 }

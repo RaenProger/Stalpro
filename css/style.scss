@@ -155,10 +155,10 @@ a {
 
 
 
-/*  .bg_pattern{
+ .bg_pattern{
         background-image: url(../img/pattern.png);
         background-repeat: repeat;
-    }  */
+    } 
 
 //HEADER
 header{
@@ -300,8 +300,8 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
             //CONSULTATION
             .container_consultation{
                 .input_item1{
-                    height: 103px;
-                    width: 592px;
+                    height: 104px;
+                    width: 590px;
                 }
                 .input_item2{
                     height: 104px;
@@ -349,6 +349,12 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
     }
 }
 
+//BESPLATNIY ZAMER_MOBILE
+.zamerchik_item{
+    width: 150px ;
+    height: 180px;
+    margin-top: 20px;
+}
 
 //MOY DOM
 .bg_section_2{
@@ -512,15 +518,6 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
             outline: none;
             }
 
-
-
-                .zamerchik_item{
-                    width: 150px ;
-                    height: 200px;
-                    margin-top: 20px;
-                }
-
-           
 
   // MEDIA QUERIES
 
@@ -989,6 +986,14 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
                                         }
                                     }
 
+
+                                    //HUDOJESTVENNAyA COVKA
+                                    .container_hudojestvenaya{
+                                    .bg_red_button{
+                                        width: 200px;
+                                        height: 50px;
+                                    }
+                                }
                                                  //OTZIVI
                                             .container_otzivi{
                                                 .bg_white_button{
@@ -1295,7 +1300,7 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
     //PHOTOS
     .container_photos{
         .ratio-4x4{
-            min-height: 200px !important;
+            min-height: 150px !important;
         }
     }
 
@@ -1319,7 +1324,7 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
      //PHOTOS
      .container_photos2{
         .ratio-4x4{
-            min-height: 200px !important;
+            min-height: 150px !important;
         }
     }
     }
@@ -1432,7 +1437,7 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
     //PHOTOS
     .container_photos{
         .ratio-4x4{
-            min-height: 150px !important;
+            min-height: 100px !important;
         }
         .arrow_item{
             left: -5px;
@@ -1479,6 +1484,9 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
             position: relative;
             width: 7%;
         }
+        .fs-5{
+            white-space: nowrap;
+        }
     }
     }
 
@@ -1503,7 +1511,7 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
      //PHOTOS
      .container_photos2{
         .ratio-4x4{
-            min-height: 150px !important;
+            min-height: 100px !important;
         }
         .arrow_item{
             left: -5px;
@@ -1726,6 +1734,10 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
                     width: 45%;
                 }
             }
+            .fs-5{
+                margin-left: -10px;
+                font-size: 11px !important;
+            }
         }
 
         //CONSULTATION_2
@@ -1760,9 +1772,7 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
                     width: 45%;
                 }
             }
-      img{
-        width: 10%;
-      }
+      
     }
         //PHOTOS
     .container_photos{
@@ -1778,24 +1788,32 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
         .img_item{
             width: 20%;
         }
+       
     }
 
 
          //OTZIVI
          .container_otzivi{
             .carousel-control-prev {
-                left: -1%;
+                left: -6%;
                 img{
                     width: 45%;;
                 }
             }
                 .carousel-control-next {
-                    right:-1%;
+                    right:-6%;
                     img{
                         width: 45%;
                     }
                 }
          }
+
+         //CONSULTATION
+        .bg_section_3{
+            background-image: none;
+            background-color: #ebeced;
+        }
+
 
         //KARTA
         .map_frame{
@@ -1812,6 +1830,10 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
                 height: 90%;
             }
         }
+
+        .down_arrow{
+            width: 10%;
+          }
 }
 
 
