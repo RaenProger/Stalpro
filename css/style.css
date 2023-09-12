@@ -940,7 +940,7 @@ header {
   .container_consultation .bg_black_button {
     width: 100%;
   }
-  .container_populyzrnie button {
+  .container_populyzrnie .btn {
     width: 25%;
   }
   .container_photos2 button {
