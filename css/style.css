@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*--------------------*/
-/*  *{outline:1px solid red!important}  */
+/*  *{outline:1px solid red!important}   */
 @font-face {
   font-family: "IBM3270";
   src: url("../fonts/ibm3270/3270-Regular.ttf") format("truetype"), url("../fonts/ibm3270/3270-Regular.otf") format("OpenTypef");
@@ -21,9 +21,9 @@
   src: url("../fonts/inter/Inter-Light.otf") format("OpenType"), url("../fonts/inter/Inter-Light.ttf") format("truetype");
   font-weight: 300;
 }
-/* body {
+/*  body {
     background-color: rgb(68, 68, 68);
-}  */
+}   */
 :root {
   --custom-red: #E10148;
 }
@@ -125,11 +125,10 @@ input {
   background: transparent;
 }
 
-.bg_pattern {
-  background-image: url(../img/pattern.png);
-  background-repeat: repeat;
-}
-
+/*  .bg_pattern{
+        background-image: url(../img/pattern.png);
+        background-repeat: repeat;
+    }  */
 header {
   box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
 }
@@ -324,11 +323,18 @@ header {
   background-size: cover;
 }
 
-.container_populyarnie li {
+.container_populyzrnie li {
   list-style-type: none; /* Убираем маркеры */
 }
-.container_populyarnie ul {
+.container_populyzrnie ul {
   padding-left: 0; /* Сдвигаем список влево */
+}
+.container_populyzrnie button {
+  width: 15%;
+}
+
+.container_photos2 button {
+  width: 15%;
 }
 
 .bg_section_6 {
@@ -875,6 +881,9 @@ header {
   .container_consultation .card-img-overlay_item {
     position: relative !important;
   }
+  .zamerchik_item {
+    margin-top: -80px;
+  }
   .container_technicheskie .miniframe {
     width: 60px;
     height: 25px;
@@ -930,6 +939,12 @@ header {
   }
   .container_consultation .bg_black_button {
     width: 100%;
+  }
+  .container_populyzrnie button {
+    width: 25%;
+  }
+  .container_photos2 button {
+    width: 25%;
   }
   .container_otzivi .bg_white_button {
     width: 210px;
@@ -1119,16 +1134,16 @@ header {
     margin-top: -50px;
   }
   .container_vhodnie .prev {
-    margin-left: -50px;
+    margin-left: -30px;
   }
   .container_vhodnie .next {
-    margin-right: -50px;
+    margin-right: -30px;
   }
   .prev {
-    margin-left: -40px;
+    margin-left: -30px;
   }
   .next {
-    margin-right: -40px;
+    margin-right: -30px;
   }
   .container_metal .heart_item {
     width: 20px;
@@ -1250,16 +1265,22 @@ header {
     width: 20%;
   }
   .container_otzivi .carousel-control-prev {
-    left: -6%;
+    left: -3%;
   }
   .container_otzivi .carousel-control-prev img {
     width: 45%;
   }
   .container_otzivi .carousel-control-next {
-    right: -6%;
+    right: -3%;
   }
   .container_otzivi .carousel-control-next img {
     width: 45%;
+  }
+  .container_otzivi .prev {
+    margin-left: -20px;
+  }
+  .container_otzivi .next {
+    margin-right: -20px;
   }
   .bg_section_3 {
     background-image: none;

@@ -2,7 +2,7 @@
 
 /*--------------------*/
 
-/*  *{outline:1px solid red!important}  */ 
+/*  *{outline:1px solid red!important}   */
 
 //IBM 3270
 @font-face {
@@ -31,9 +31,9 @@
         font-weight: 300;
     }
 
- /* body {
+/*  body {
     background-color: rgb(68, 68, 68);
-}  */
+}   */
 
 //MAIN COLORS
 :root {
@@ -155,10 +155,10 @@ a {
 
 
 
- .bg_pattern{
+/*  .bg_pattern{
         background-image: url(../img/pattern.png);
         background-repeat: repeat;
-    } 
+    }  */
 
 //HEADER
 header{
@@ -448,15 +448,24 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
 
 
 //POPULyAdnie
-.container_populyarnie{
+.container_populyzrnie{
     li {
         list-style-type: none; /* Убираем маркеры */
        }
        ul {
         padding-left: 0; /* Сдвигаем список влево */
        }
+       button{
+        width: 15%;
+    }
 }
 
+        //PHOTOS2
+        .container_photos2{
+            button{
+                width: 15%;
+            }
+        }
 
 //IZGOTVLENIE I MONTAZH
 
@@ -1251,6 +1260,12 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
         }
     }
 
+     //BESPLATNIY ZAMER_MOBILE
+     .zamerchik_item{
+        margin-top: -80px;
+    }
+
+
     //TECHNICHESKIE DVERI
     .container_technicheskie{
         .miniframe{
@@ -1337,6 +1352,21 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
             width: 100%;
         }
     }
+
+    //POPULyAdnie
+.container_populyzrnie{
+  
+       button{
+        width: 25%;
+    }
+}
+
+        //PHOTOS2
+        .container_photos2{
+            button{
+                width: 25%;
+            }
+        }
 
      //OTZIVI
      .container_otzivi{
@@ -1458,6 +1488,8 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
             width: 12%;
         }
     }
+
+
 
     //KOLLEKCII
     .container_collelcii{
@@ -1613,19 +1645,19 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
           }
 
           .prev {
-            margin-left: -50px;
+            margin-left: -30px;
           }
         .next {
-            margin-right: -50px;
+            margin-right: -30px;
           }
     }
   
 
     .prev {
-        margin-left: -40px;
+        margin-left: -30px;
       }
     .next {
-        margin-right: -40px;
+        margin-right: -30px;
       }
 
          //METAL DVERI
@@ -1774,6 +1806,8 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
             }
       
     }
+
+    
         //PHOTOS
     .container_photos{
         .bg_white_button{
@@ -1795,17 +1829,23 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
          //OTZIVI
          .container_otzivi{
             .carousel-control-prev {
-                left: -6%;
+                left: -3%;
                 img{
                     width: 45%;;
                 }
             }
                 .carousel-control-next {
-                    right:-6%;
+                    right:-3%;
                     img{
                         width: 45%;
                     }
                 }
+                .prev {
+        margin-left: -20px;
+      }
+    .next {
+        margin-right: -20px;
+      }
          }
 
          //CONSULTATION
@@ -1813,6 +1853,7 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
             background-image: none;
             background-color: #ebeced;
         }
+
 
 
         //KARTA
