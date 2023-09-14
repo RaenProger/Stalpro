@@ -23,7 +23,7 @@
 }
 /*  body {
     background-color: rgb(68, 68, 68);
-}   */
+}    */
 :root {
   --custom-red: #E10148;
 }
@@ -1206,8 +1206,11 @@ header {
     font-size: 12px !important;
   }
   .container_technicheskie .fs-5 {
-    margin-left: -10px;
+    margin-left: -15px;
     font-size: 11px !important;
+  }
+  .container_technicheskie .text-muted {
+    margin-left: -9px;
   }
   .container_technicheskie .f-s {
     font-size: 8px !important;
@@ -1233,8 +1236,11 @@ header {
     width: 45%;
   }
   .container_collelcii .fs-5 {
-    margin-left: -10px;
+    margin-left: -12px;
     font-size: 11px !important;
+  }
+  .container_collelcii .text-muted {
+    margin-left: -5px;
   }
   .container_consultation .bg_black_button {
     width: 100%;
