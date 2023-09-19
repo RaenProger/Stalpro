@@ -52301,11 +52301,11 @@ a.card {
 }
 
 .noUi-connect {
-    background: var(--bs-gray-500);
+    background: var(--bs-danger);
 }
 
 .noUi-handle {
-    border: 1px solid var(--bs-gray-500);
+    border: 1px solid var(--bs-danger);
     border-radius: 50%;
     box-shadow: none;
 }

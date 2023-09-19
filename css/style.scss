@@ -31,9 +31,9 @@
         font-weight: 300;
     }
 
-/*  body {
+body {
     background-color: rgb(68, 68, 68);
-}    */
+}   
 
 //MAIN COLORS
 :root {
@@ -187,9 +187,39 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
   }
  
 
+  //CONTAINER_CATALOG
+
+  .container_catalog{
+    .container_besplatniy {
+        .input_item1 {
+            height: 74px;
+            width: 410px;
+          }
+          .input_item2 {
+            height: 74px;
+            width: 380px;
+          }
+          .input_item3 {
+            height: 74px;
+            width: 340px;
+          }
+          .zamer_item{
+            width: 130%;
+            margin-top: -41px;
+          }
+    }
+   
+  }
+
 //BANER
+.bg_baner{
+    background-image: url('../img/baner_catalog_category.png');
+            background-repeat: no-repeat;
+            background-size: cover; 
+}
 
 .container_baner {
+
     .square_item{
         border-bottom-left-radius: 20px;
         border-top-right-radius: 20px;
@@ -241,13 +271,88 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
 }
 
 
+/* DROPDOWN */
+
+.dropdown-wrapper {
+    position: relative;
+    background: #fff;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease-out;
+}
+
+.dropdown-wrapper:after {
+    content: "";
+    position: absolute;
+    left: 15px;
+    top: 8px;
+    border-width: 10px 10px 0 10px;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #000;
+    border-left: 2px solid #000;
+    transform: rotate(-135deg);
+}
+
+.dropdown-wrapper.is-active {
+    border-radius: 5px 5px 0 0;
+    box-shadow: none;
+    border-bottom: none;
+}
+
+.dropdown-wrapper.is-active:after {
+    position: absolute;
+    top: 8px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+
+.dropdown-wrapper.is-active .dropdown-list {
+    max-height: 400px;
+}
+
+
+
+.dropdown-list {
+    /* Size & position */
+    top: 100%;
+    left: 0;
+    right: 0;
+    /* Styles */
+    background: #fff;
+    border-radius: 0 0 5px 5px;
+    border: 1px solid rgba(0, 0, 0, 0.087);
+    border-top: none;
+    border-bottom: none;
+    list-style: none;
+    transition: all 0.3s ease-out;
+    /* Hiding */
+    max-height: 0;
+    overflow: hidden;
+    padding-left: 0;
+}
+
+.dropdown-list li:last-of-type a {
+    border: none;
+}
+
+.dropdown-list a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    transition: all 0.3s ease-out;
+}
+
 
             //VHODNIE DVERI
-            /* .bg_section{
+            .bg_section{
                 background-image: url('../img/background_1.png');
                 background-repeat: no-repeat;
                 background-size: cover;
-            } */
+            }
             .container_vhodnie{
             
             .dot_items{
@@ -349,19 +454,39 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
     }
 }
 
-//BESPLATNIY ZAMER_MOBILE
-.zamerchik_item{
-    width: 150px ;
-    height: 180px;
-    margin-top: 20px;
-}
 
-//MOY DOM
-.bg_section_2{
-    background-image: url('../img/background_3.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+            //CONSULTATION_CATALOG_CATEGORy
+            .container_consultation_catalog_category{
+                .input_item1 {
+                    height: 104px;
+                    width: 312px;
+                  }
+                .input_item2 {
+                    height: 104px;
+                    width: 318px;
+                  }
+                .input_item3 {
+                    height: 105px;
+                    width: 315px;
+                  }
+                  .custom_font{
+                    margin-left: -10px;
+                  }
+            }
+
+            //BESPLATNIY ZAMER_MOBILE
+            .zamerchik_item{
+                width: 150px ;
+                height: 180px;
+                margin-top: 20px;
+            }
+
+            //MOY DOM
+            .bg_section_2{
+                background-image: url('../img/background_3.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
 
         //SVARNIE RESHETKI
         .bg_section_5{
@@ -583,6 +708,30 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
        }
     }
 
+      //CONTAINER_CATALOG
+
+  .container_catalog{
+    .container_besplatniy {
+        .input_item1 {
+            height: 61px;
+            width: 250px;
+          }
+          .input_item2 {
+            height: 60px;
+            width: 260px;
+          }
+          .input_item3 {
+            height: 58px;
+            width: 250px;
+          }
+          .zamer_item{
+            width: 130%;
+            margin-top: -31px;
+          }
+    }
+   
+  }
+
      //BESPLATNIY ZAMER
      .container_besplatniy{
         .input_item{
@@ -599,6 +748,25 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
         .ratio-4x4{
             min-height: 200px !important;
         }
+    }
+
+    //CONSULTATION_CATALOG_CATEGORy
+    .container_consultation_catalog_category{
+        .input_item1 {
+            width: 241px;
+            height: 76px;
+          }
+        .input_item2 {
+            width: 241px;
+            height: 76px;
+          }
+        .input_item3 {
+            width: 241px;
+            height: 76px;
+          }
+          .custom_font{
+            margin-left: -10px;
+          }
     }
 
     //KOLLEKCII
@@ -677,6 +845,36 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
     }
     }
 
+    
+
+                //CONTAINER_CATALOG
+
+            .container_catalog{
+                .container_besplatniy {
+                    .input_item1 {
+                        height: 53px;
+                        width: 200px;
+                    }
+                    .input_item2 {
+                        height: 53px;
+                width: 210px;
+                    }
+                    .input_item3 {
+                        height: 54px;
+                        width: 207px;
+                    }
+                    .zamer_item{
+                        width: 130%;
+                        margin-top: -21px;
+                    }
+                    .custom_font{
+                        margin-left: -10px;
+                    }
+                }
+            
+            }
+
+
             //ARROWS
         .arrow_item{
             left: -40px;
@@ -727,6 +925,26 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
                     height: 71px;
                 }
             }
+
+
+             //CONSULTATION_CATALOG_CATEGORy
+     .container_consultation_catalog_category{
+        .input_item1 {
+            width: 208px;
+            height: 71px;
+          }
+        .input_item2 {
+            width: 208px;
+            height: 71px;
+          }
+        .input_item3 {
+            width: 208px;
+            height: 71px;
+          }
+          .custom_font{
+            margin-left: -10px;
+          }
+    }
 
      //TECHNICHESKIE DVERI
             .container_technicheskie{
@@ -874,7 +1092,35 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
                             height: 32px;
                         }
                     }
-                            //CONSULTATION
+
+
+                                    //CONTAINER_CATALOG
+
+                            .container_catalog{
+                                .container_besplatniy {
+                                    .input_item1 {
+                                        height: 42px;
+                                        width: 175px;
+                                    }
+                                    .input_item2 {
+                                        height: 43px;
+                                         width: 180px;
+                                    }
+                                    .input_item3 {
+                                        height: 43px;
+                                        width: 170px;
+                                    }
+                                    .zamer_item{
+                                        width: 120%;
+                                        margin-top: -16px;
+                                    }
+                                    .custom_font{
+                                        margin-left: 0px;
+                                    }
+                                }
+                            
+                            }
+                                            //CONSULTATION
                             .container_consultation{
                                 .mt-10{
                                     width: 80%;
@@ -885,6 +1131,8 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
                                 }
                             }
 
+
+                             
                                 //TECHNICHESKIE DVERI
                                     .container_technicheskie{
                                         .bg_red_button{
@@ -1010,6 +1258,26 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
                                                     height: 20px;
                                                 }
                                             }
+
+
+                                            //CONSULTATION_CATALOG_CATEGORy
+                                    .container_consultation_catalog_category{
+                                        .input_item1 {
+                                            width: 172px;
+                                            height: 80px;
+                                        }
+                                        .input_item2 {
+                                            width: 172px;
+                                            height: 80px;
+                                        }
+                                        .input_item3 {
+                                            width: 172px;
+                                            height: 80px;
+                                        }
+                                        .custom_font{
+                                            margin-left: -10px;
+                                        }
+                                    }
                         }
 
 
@@ -1020,6 +1288,11 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
                 @media (max-width: 992px){
 
                     //BANER
+                    .bg_section{
+                        background-image: none;
+                        background-color: white;
+                    }
+
                     .container_baner{
                         .arrow_item{
                             left: -40px;
@@ -1081,6 +1354,35 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
                     height:48px;
                 }
             }
+
+
+             //CONTAINER_CATALOG
+
+             .container_catalog{
+                .container_besplatniy {
+                    .input_item1 {
+                        height: 42px;
+                         width: 185px;
+                    }
+                    .input_item2 {
+                        height: 43px;
+                        width: 180px;
+                    }
+                    .input_item3 {
+                        height: 43px;
+                        width: 160px;
+                      }
+                    }
+                    .zamer_item{
+                        width: 130%;
+                        margin-top: -16px;
+                    }
+                    .custom_font{
+                        margin-left: -0px;
+                    }
+                }
+            
+            
 
                 //CONSULTATION
                 .container_consultation{
@@ -1262,7 +1564,7 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
 
      //BESPLATNIY ZAMER_MOBILE
      .zamerchik_item{
-        margin-top: -80px;
+        margin-top: -60px;
     }
 
 
@@ -1381,7 +1683,6 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
   @media (max-width: 575px){
             //VHODNIE DVERI
             .container_vhodnie{
-
                 //ARROWS
             .arrow_item{
                 left: -16px;
@@ -1490,13 +1791,15 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
     }
 
 
-
     //KOLLEKCII
     .container_collelcii{
         .arrow_item{
             left: -5px;
             position: relative;
             width: 6%;
+        }
+        .arrow_item2{
+            width: 13% !important;
         }
         .carousel-inner{
         .top_frame__item{
@@ -1581,6 +1884,9 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
 
      //OTZIVI
      .container_otzivi{
+      
+           
+        
         .arrow_item{
             left: -5px;
             position: relative;
@@ -1822,6 +2128,21 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
         }
     }
 
+
+    //CENI 
+    .container_ceni{
+        .arrow_item {
+            left: -5px;
+            position: relative;
+            width: 8%;
+          }
+          .arrow_item4{
+            width: 14%;
+          }
+        .fs-7{
+            padding-top: 0 !important;
+        }
+    }
 
     //KAK ZAKAZAT
     .container_kak_zakazat{
