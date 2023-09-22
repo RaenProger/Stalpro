@@ -1,0 +1,21 @@
+   <span
+                                        class="position-absolute float-end ps-3 mb-5 fs-12 fs-sm-18 red_color">1</span>
+                                    <div class="card  border-0">
+                                        <img class="mt-10" src="svg/frame_17.svg" alt="">
+                                        <div class="card-img-overlay px-0 py-0 pt-17">
+                                            <img class=" w_25" src="img/call.png" alt="">
+                                            <h4 class="red_color  mb-0 pt-15 pt-sm-20 fs-8 fs-sm-10 fs-md-10">ЗАМЕР И
+                                                КОНСУЛЬТАЦИЯ
+                                            </h4>
+                                            <p class="mb-0 fs-7 fs-sm-7 fs-lg-8 pt-10">После предварительного звонка (о
+                                                согласовании
+                                                места и времени), к Вам на объект, выедет наш замерщик - настоящий
+                                                специалист. Он
+                                                разбирается не только в дверных проёмах, но и свободно ориентируется во
+                                                всех
+                                                тонкостях самого процесса установки, знает об особенностях любой
+                                                модели наших дверей и познакомит с предложениями по каталогам замков и
+                                                фурнитуры.
+                                            </p>
+                                        </div>
+                                    </div>
