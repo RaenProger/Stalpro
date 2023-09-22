@@ -31,9 +31,9 @@
         font-weight: 300;
     }
 
-/* body {
+/*  body {
     background-color: rgb(68, 68, 68);
-}   */ 
+}  */  
 
 //MAIN COLORS
 :root {
@@ -207,6 +207,15 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
             width: 130%;
             margin-top: -41px;
           }
+    }
+
+    .container_collelcii{
+        .carousel-control-prev{
+            left:-120px;
+        }
+        .carousel-control-next{
+            right: -120px;
+        }
     }
      
     .container_otzivi{
@@ -766,6 +775,15 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
             height: 53px;
        }
     }
+     
+    .container_collelcii{
+        .carousel-control-prev{
+            left:-100px;
+        }
+        .carousel-control-next{
+            right: -100px;
+        }
+    }
 
     .container_otzivi{
         .carousel-control-prev{
@@ -941,6 +959,16 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
                         height: 30px;
                     }
                 }
+
+                .container_collelcii{
+                    .carousel-control-prev{
+                        left:-90px;
+                    }
+                    .carousel-control-next{
+                        right: -90px;
+                    }
+                }
+
                 .container_otzivi{
                     .carousel-control-prev{
                         left:-90px;
@@ -1216,6 +1244,15 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
                                     }
                                 }
 
+                                .container_collelcii{
+                                    .carousel-control-prev{
+                                        left:-80px;
+                                    }
+                                    .carousel-control-next{
+                                        right: -80px;
+                                    }
+                                }
+                
                                 .container_otzivi{
                                     .carousel-control-prev{
                                         left:-80px;
@@ -1506,6 +1543,9 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
                             height:48px;
                         }
                     }
+
+
+                    
                 }
             
             
@@ -1691,6 +1731,17 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
                     height: 42px;
                 }
                  }
+
+
+                 .container_collelcii{
+                    .carousel-control-prev{
+                        left:-60px;
+                    }
+                    .carousel-control-next{
+                        right: -60px;
+                    }
+                }
+
 
                  .container_otzivi{
                     .carousel-control-prev{
@@ -2245,6 +2296,16 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
                 }
                 
              }
+
+             .container_collelcii{
+                .carousel-control-prev{
+                    left:-20px;
+                }
+                .carousel-control-next{
+                    right: -20px;
+                }
+            }
+
              .container_otzivi{
                 .carousel-control-prev{
                     left:-20px;
