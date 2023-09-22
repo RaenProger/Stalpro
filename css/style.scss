@@ -31,9 +31,9 @@
         font-weight: 300;
     }
 
-body {
+/* body {
     background-color: rgb(68, 68, 68);
-}   
+}   */ 
 
 //MAIN COLORS
 :root {
@@ -193,22 +193,30 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
     .container_besplatniy {
         .input_item1 {
             height: 74px;
-            width: 410px;
+            width: 340px;
           }
           .input_item2 {
             height: 74px;
-            width: 380px;
+             width: 330px;
           }
           .input_item3 {
             height: 74px;
-            width: 340px;
+            width: 313px;
           }
           .zamer_item{
             width: 130%;
             margin-top: -41px;
           }
     }
-   
+     
+    .container_otzivi{
+        .carousel-control-prev{
+            left:-120px;
+        }
+        .carousel-control-next{
+            right: -120px;
+        }
+    }
   }
 
 //BANER
@@ -459,18 +467,18 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
             .container_consultation_catalog_category{
                 .input_item1 {
                     height: 104px;
-                    width: 312px;
+                    width: 301px;
                   }
                 .input_item2 {
-                    height: 104px;
-                    width: 318px;
+                    height: 109px;
+                    width: 305px;
                   }
                 .input_item3 {
                     height: 105px;
-                    width: 315px;
+                    width: 305px;
                   }
                   .custom_font{
-                    margin-left: -10px;
+                    margin-left: -25px;
                   }
             }
 
@@ -495,119 +503,130 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
             background-size: cover;
         }
 
- //PHOTOS
- .container_photos{
-    .img_item:hover{
-           transition: 0.1s;
-           transform-origin: 41% 15%;
-     transform: translate(3px, -3px) scale(1.13, 1.08);
-   }
-   
-     .ratio:hover #stroke_red{
-           stroke: red !important;
-       }
-   
-     
-   }
-   
+                    //PHOTOS
+                    .container_photos{
+                        .img_item:hover{
+                            transition: 0.1s;
+                            transform-origin: 41% 15%;
+                        transform: translate(3px, -3px) scale(1.13, 1.08);
+                    }
+                    
+                        .ratio:hover #stroke_red{
+                            stroke: red !important;
+                        }
+                    
+                        
+                    }
+                    
 
-//CARD
-.card{
-.px-12:hover{
-    color: white;
-}
+                    //CARD
+                    .card{
+                    .px-12:hover{
+                        color: white;
+                    }
 
-.heart_item:hover{
-    fill: #E10148;
-    cursor: pointer;
-}
-
-
-}
+                    .heart_item:hover{
+                        fill: #E10148;
+                        cursor: pointer;
+                    }
 
 
-//KAK_ZAKAZAT
-.container_kak_zakazat{
-    .mb-0{
-        color:var(--custom-red);
-    }
-    
-}
+                    }
+                
+                
+                     //KAK ZAKAZAT I USTANOVIT
+                    .container_ceni{
+                        .w_25{
+                            width: 10%;
+                        }
+                        .float-end{
+                            margin-top: -20px;
+                            margin-right: -20px;
+                        }
+                    }
+
+                //KAK_ZAKAZAT
+                .container_kak_zakazat{
+                    .mb-0{
+                        color:var(--custom-red);
+                    }
+                    
+                }
 
 
-//NEPUSTIM
+                //NEPUSTIM
 
-.bg_section_4{
-    background-image: url('../img/background_4.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+                .bg_section_4{
+                    background-image: url('../img/background_4.png');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
 
-//KOLLEKCII
-.container_collelcii{
-.px-10:hover{
-    color: white;
-}
+                //KOLLEKCII
+                .container_collelcii{
+                .px-10:hover{
+                    color: white;
+                }
 
-.mt-20:hover{
-    cursor: pointer;
-    transition: 0.3s;
-    transform: scale(1.1);
-}
-}
+                .mt-20:hover{
+                    cursor: pointer;
+                    transition: 0.3s;
+                    transform: scale(1.1);
+                }
+                }
 
-//PO NAZNACHENIyU
-.container_ponaznacheniu{
-    .btn-outline-secondary:hover {
-        background-color: var(--custom-red) !important;
-      }
-}
-
-
-//CONSULTATION
-.bg_section_3{
-    background-image: url('../img/background_2.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+                //PO NAZNACHENIyU
+                .container_ponaznacheniu{
+                    .btn-outline-secondary:hover {
+                        background-color: var(--custom-red) !important;
+                    }
+                }
 
 
-//POPULyAdnie
-.container_populyzrnie{
-    li {
-        list-style-type: none; /* Убираем маркеры */
-       }
-       ul {
-        padding-left: 0; /* Сдвигаем список влево */
-       }
-       button{
-        width: 15%;
-    }
-}
+                //CONSULTATION
+                .bg_section_3{
+                    background-image: url('../img/background_2.png');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
 
-        //PHOTOS2
-        .container_photos2{
-            button{
-                width: 15%;
+
+                //POPULyAdnie
+                .container_populyzrnie{
+                    li {
+                        list-style-type: none; /* Убираем маркеры */
+                    }
+                    ul {
+                        padding-left: 0; /* Сдвигаем список влево */
+                    }
+                    button{
+                        width: 15%;
+                    }
+                }
+
+                        //PHOTOS2
+                        .container_photos2{
+                            button{
+                                width: 15%;
+                            }
+                        }
+
+            //IZGOTVLENIE I MONTAZH
+
+            .bg_section_6{
+                background-image: url('../img/background_6.png');
+                background-repeat: no-repeat;
+                background-size: cover;
             }
-        }
-
-//IZGOTVLENIE I MONTAZH
-
-.bg_section_6{
-    background-image: url('../img/background_6.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 
-//NEPUSTIM
+            //NEPUSTIM
 
-    .bg_section_7{
-        background-image: url('../img/background_7.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+                .bg_section_7{
+                    background-image: url('../img/background_7.png');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
 
 
         //OTZIVI
@@ -656,7 +675,8 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
   // MEDIA QUERIES
 
   @media (max-width: 1800px){
-
+  
+    //METAL DVERI
     .container_metal{
         .mt-xl-20{
             width: 35%;
@@ -713,21 +733,47 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
   .container_catalog{
     .container_besplatniy {
         .input_item1 {
-            height: 61px;
-            width: 250px;
+            height: 57px;
+             width: 228px;
           }
           .input_item2 {
-            height: 60px;
-            width: 260px;
+            height: 59px;
+            width: 234px;
           }
           .input_item3 {
             height: 58px;
-            width: 250px;
+            width: 233px;
           }
           .zamer_item{
             width: 130%;
-            margin-top: -31px;
-          }
+            margin-top: -28px;
+          }  
+    }
+
+    .container_metal{
+        .mt-xl-20{
+            width: 35%;
+        }
+        .mb-10{
+           max-width: 35%;
+       }
+       .frame2_item{
+           width: 148px;
+           height: 53px;
+       }
+       .bg_white_button{
+            width: 144px;
+            height: 53px;
+       }
+    }
+
+    .container_otzivi{
+        .carousel-control-prev{
+            left:-100px;
+        }
+        .carousel-control-next{
+            right: -100px;
+        }
     }
    
   }
@@ -750,18 +796,23 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
         }
     }
 
+
+
+
+
+
     //CONSULTATION_CATALOG_CATEGORy
     .container_consultation_catalog_category{
         .input_item1 {
-            width: 241px;
-            height: 76px;
+            width: 229px;
+            height: 76px
           }
         .input_item2 {
-            width: 241px;
+            width: 233px;
             height: 76px;
           }
         .input_item3 {
-            width: 241px;
+            width: 232px;
             height: 76px;
           }
           .custom_font{
@@ -852,26 +903,52 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
             .container_catalog{
                 .container_besplatniy {
                     .input_item1 {
-                        height: 53px;
-                        width: 200px;
+                        height: 52px;
+                        width: 192px;
                     }
                     .input_item2 {
                         height: 53px;
-                width: 210px;
+                        width: 197px;
                     }
                     .input_item3 {
-                        height: 54px;
-                        width: 207px;
+                        height: 50px;
+                        width: 197px;
                     }
                     .zamer_item{
                         width: 130%;
-                        margin-top: -21px;
+                        margin-top: -19px;
                     }
                     .custom_font{
                         margin-left: -10px;
                     }
                 }
-            
+
+                .container_metal{
+                
+                    .mb-10{
+                        max-width: 35%;
+                    }
+                    .frame2_item{
+                        width: 124px;
+                        height: 42px;
+                    }
+                    .bg_white_button{
+                        width: 122px;
+                        height: 43px;
+                    }
+                    .heart_item{
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+                .container_otzivi{
+                    .carousel-control-prev{
+                        left:-90px;
+                    }
+                    .carousel-control-next{
+                        right: -90px;
+                    }
+                }
             }
 
 
@@ -930,19 +1007,19 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
              //CONSULTATION_CATALOG_CATEGORy
      .container_consultation_catalog_category{
         .input_item1 {
-            width: 208px;
+            width: 195px;
             height: 71px;
           }
         .input_item2 {
-            width: 208px;
+            width: 198px;
             height: 71px;
           }
         .input_item3 {
-            width: 208px;
+            width: 198px;
             height: 71px;
           }
           .custom_font{
-            margin-left: -10px;
+            margin-left: -20px;
           }
     }
 
@@ -1100,38 +1177,66 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
                                 .container_besplatniy {
                                     .input_item1 {
                                         height: 42px;
-                                        width: 175px;
+                                        width: 164px;
                                     }
                                     .input_item2 {
                                         height: 43px;
-                                         width: 180px;
+                                        width: 165px;
                                     }
                                     .input_item3 {
                                         height: 43px;
-                                        width: 170px;
+                                        width: 164px;
                                     }
                                     .zamer_item{
                                         width: 120%;
-                                        margin-top: -16px;
+                                        margin-top: -4px;
                                     }
                                     .custom_font{
-                                        margin-left: 0px;
+                                        margin-left: -14px;
                                     }
                                 }
-                            
+
+                                .container_metal{
+                                    .miniframe{
+                                        width: 66px;
+                                        height: 26px;
+                                    }
+                                    .heart_item{
+                                        width: 25px;
+                                        height: 25px;
+                                    }
+            
+                                    .frame2_item{
+                                        width: 100px;
+                                        height: 33px;
+                                    }
+                                    .bg_white_button{
+                                        width: 100px;
+                                        height: 32px;
+                                    }
+                                }
+
+                                .container_otzivi{
+                                    .carousel-control-prev{
+                                        left:-80px;
+                                    }
+                                    .carousel-control-next{
+                                        right: -80px;
+                                    }
+                                }
                             }
                                             //CONSULTATION
-                            .container_consultation{
-                                .mt-10{
-                                    width: 80%;
-                                }
-                                .input_item{
-                                    width: 244px;
-                                    height: 72px;
-                                }
-                            }
+                                        .container_consultation{
+                                            .mt-10{
+                                                width: 80%;
+                                            }
+                                            .input_item{
+                                                width: 244px;
+                                                height: 72px;
+                                            }
+                                        }
 
-
+                                        
                              
                                 //TECHNICHESKIE DVERI
                                     .container_technicheskie{
@@ -1263,20 +1368,20 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
                                             //CONSULTATION_CATALOG_CATEGORy
                                     .container_consultation_catalog_category{
                                         .input_item1 {
-                                            width: 172px;
+                                            width: 162px;
                                             height: 80px;
                                         }
                                         .input_item2 {
-                                            width: 172px;
+                                            width: 166px;
                                             height: 80px;
                                         }
                                         .input_item3 {
-                                            width: 172px;
+                                            width: 165px;
                                             height: 80px;
                                         }
                                         .custom_font{
-                                            margin-left: -10px;
-                                        }
+                                            margin-left: 0px;
+                                          }
                                     }
                         }
 
@@ -1362,23 +1467,44 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
                 .container_besplatniy {
                     .input_item1 {
                         height: 42px;
-                         width: 185px;
+                        width: 180px;
                     }
                     .input_item2 {
                         height: 43px;
-                        width: 180px;
+                        width: 179px;
                     }
                     .input_item3 {
-                        height: 43px;
-                        width: 160px;
+                        height: 42px;
+                        width: 154px;
                       }
-                    }
+                    
                     .zamer_item{
-                        width: 130%;
-                        margin-top: -16px;
+                        width: 120%;
+                        margin-top: -13px;
                     }
                     .custom_font{
                         margin-left: -0px;
+                    }
+                }
+                
+                    .container_metal{
+                        .miniframe{
+                            width: 75px;
+                            height: 31px;
+                        }
+                        .heart_item{
+                            width: 31px;
+                            height: 31px;
+                        }
+        
+                        .frame2_item{
+                            width: 160px;
+                            height: 47px;
+                        }
+                        .bg_white_button{
+                            width: 162px;
+                            height:48px;
+                        }
                     }
                 }
             
@@ -1390,8 +1516,9 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
                         width: 80%;
                     }
                     .input_item{
-                        width: 174px;
+                        width: 166px;
                         height: 68px;
+                       
                     }
                 
                 }
@@ -1536,6 +1663,44 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
             height: 42px;
         }
          }
+
+          //CONTAINER_CATALOG
+
+          .container_catalog{
+            .container_metal{
+                .miniframe{
+                    width: 60px;
+                    height: 25px;
+                }
+                .heart_item{
+                    width:28px;
+                    height: 28px;
+                }
+                
+                .fs-5{
+                    white-space: nowrap;
+                    margin-left: -4px;
+                }
+        
+                .frame2_item{
+                    width: 120px;
+                    height: 43px;
+                }
+                .bg_white_button{
+                    width: 120px;
+                    height: 42px;
+                }
+                 }
+
+                 .container_otzivi{
+                    .carousel-control-prev{
+                        left:-60px;
+                    }
+                    .carousel-control-next{
+                        right: -60px;
+                    }
+                }
+          }
 
            //CONSULTATION
     .container_consultation{
@@ -1727,6 +1892,42 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
         
          }
          
+        //CATALOG CATEGORy
+         .container_catalog{
+            .container_metal{
+                .miniframe{
+                    width: 50px;
+                    height: 20px;
+                }
+                .fs-5{
+                    white-space: nowrap;
+                    margin-left: -4px;
+                }
+                .heart_item{
+                    width:28px;
+                    height: 28px;
+                }
+                
+                .mb-10 {
+                    margin-bottom: 0 !important;
+                }
+        
+                .frame2_item{
+                    width:100%;
+                    height: 100%;
+                }
+                .bg_white_button{
+                    width: 100%;
+                    height: 100%;
+                }
+                .arrow_item{
+                    left: -5px;
+                    position: relative;
+                    width: 13%;
+                }
+                
+                 }
+         }
 
      //TECHNICHESKIE DVERI
      .container_technicheskie{
@@ -1883,10 +2084,7 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
 
 
      //OTZIVI
-     .container_otzivi{
-      
-           
-        
+     .container_otzivi{  
         .arrow_item{
             left: -5px;
             position: relative;
@@ -1995,7 +2193,7 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
                 padding-top: 6px !important;
             }
             .fs-5{
-                margin-left: -8px;
+                margin-left: -11px;
                 font-size: 11px !important;
             }
             
@@ -2005,6 +2203,60 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
             }
             
          }
+
+
+               //CATALOG CATEGORy
+               .container_catalog{
+                .container_metal{
+                    .heart_item{
+                        width:20px;
+                        height: 20px;
+                    }
+                    .miniframe{
+                        width: 40px;
+                        height: 15px;
+                    }
+                .mt-10{
+                    margin-top: 15px !important;
+                }
+                .ms-20{
+                    margin-left: 20px !important;
+                }
+                .pt-2{
+                    padding-top: 2px !important;
+                }
+                .fs-7{
+                    padding-left: 3px !important;
+                    padding-right:  3px !important;
+                    padding-top: 5px !important;
+                    font-size: 12px !important;
+                }
+                .pt-5{
+                    padding-top: 6px !important;
+                }
+                .fs-5{
+                    margin-left: -11px;
+                    font-size: 11px !important;
+                }
+                
+                .f-s{
+                    font-size: 8px !important;
+                    margin-left: -7px;
+                }
+                
+             }
+             .container_otzivi{
+                .carousel-control-prev{
+                    left:-20px;
+                }
+                .carousel-control-next{
+                    right: -20px;
+                }
+            
+            }
+            
+         }
+
 
             //CONSULTATION
     .container_consultation{
