@@ -415,13 +415,19 @@
                                         </div>
                                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                                             <span class="prev"  aria-hidden="true">
-                                                <img src="svg/prev_arrow.svg" alt="">
+                                                <img class="d-none d-sm-flex" src="svg/prev_arrow.svg" alt="">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="grey" class="d-sm-none bi bi-chevron-left" viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"></path>
+                                                </svg>
                                             </span>
                                             <span class="visually-hidden">Предыдущий</span>
                                         </button>
                                         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                                            <span class="next   "  aria-hidden="true">
-                                                <img src="svg/next_arrow.svg" alt="">
+                                            <span class="next"  aria-hidden="true">
+                                                <img class="d-none d-sm-flex" src="svg/next_arrow.svg" alt="">
+                                                <svg   xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="grey" class="d-sm-none bi bi-chevron-right" viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
+                                                    </svg>
                                             </span>
                                             <span class="visually-hidden">Следующий</span>
                                         </button>
@@ -468,135 +474,324 @@
                                                 </div>
                                             </div>
 
-                                            <div class="mb-15">
-                                                <h6 class="fw-bold fs-7 fs-md-11 mb-10 text-dark">Панель МДФ - 10мм</h6>
-                                                <div class=" text-secondary">
-                                                    <div class="form-check fs-9 ls-sm mb-5">
+                                            <div class="mb-15 ps-10 ps-lg-0">
+                                                <h6 class="fw-bold fs-10 fs-sm-12 fs-md-13 mb-10 ">Отделка снаружи</h6>
+                                                <div class="text-secondary">
+                                                    <div class="form-check fs-7 fs-sm-9 ls-sm mb-5">
                                                         <input class="form-check-input border bg-light"
                                                             id="filter-type-1" name="filter-type" autocomplete="off"
                                                             type="checkbox" />
-                                                        <a href="" class="form-check-label text-secondary text-decoration-underline"
-                                                            for="filter-type-1 ">Снаружи и внутри</a>
+                                                        <a href="" class="form-check-label text-secondary"
+                                                            for="filter-type-1 ">Винилискожа</a>
                                                     </div>
-                                                    <div class="form-check fs-9 ls-sm mb-4 ms-15">
-                                                        <input class="form-check-input bg-light"
-                                                            id="filter-type-2" name="filter-type" autocomplete="off"
-                                                            type="checkbox" />
-                                                        <label class="form-check-label text-secondary"
-                                                            for="filter-type-2">С пленкой ПВХ </label>
-                                                    </div>
-                                                    <div class="form-check fs-9 ls-sm mb-4 ms-15">
-                                                        <input class="form-check-input bg-light"
-                                                            id="filter-type-3" name="filter-type" autocomplete="off"
-                                                            type="checkbox" />
-                                                        <label class="form-check-label text-secondary"
-                                                            for="filter-type-3">Шпон дерева</label>
-                                                    </div>
-                                                    <div class="form-check fs-9 ls-sm mb-4 ms-15">
-                                                        <input class="form-check-input bg-light"
-                                                            id="filter-type-4" name="filter-type" autocomplete="off"
-                                                            type="checkbox" />
-                                                        <label class="form-check-label text-secondary"
-                                                            for="filter-type-4">Покрас по RAL</label>
-                                                    </div>
-                                                    <div class="form-check fs-9 ls-sm mb-5">
+                                                    <div class="form-check fs-7 fs-sm-9 ls-sm mb-5">
                                                         <input class="form-check-input border bg-light"
                                                             id="filter-type-5" name="filter-type" autocomplete="off"
                                                             type="checkbox" />
-                                                        <a href="" class="form-check-label text-secondary text-decoration-underline"
-                                                            for="filter-type-6 ">Панель - снаружи</a>
+                                                        <a href="" class="form-check-label text-secondary"
+                                                            for="filter-type-6 ">Порошковый покрас</a>
                                                     </div>
-                                                    <div class="form-check fs-9 ls-sm mb-5">
+                                                    <div class="form-check fs-7 fs-sm-9 ls-sm mb-5">
                                                         <input class="form-check-input border bg-light"
                                                             id="filter-type-7" name="filter-type" autocomplete="off"
                                                             type="checkbox" />
-                                                        <a href="" class="form-check-label text-secondary text-decoration-underline"
-                                                            for="filter-type-8">Панель - внутри</a>
+                                                        <a href="" class="form-check-label text-secondary"
+                                                            for="filter-type-8">Панель МДФ-ПВХ</a>
+                                                    </div>
+                                                    <div class="form-check fs-7 fs-sm-9 ls-sm mb-5">
+                                                        <input class="form-check-input border bg-light"
+                                                            id="filter-type-7" name="filter-type" autocomplete="off"
+                                                            type="checkbox" />
+                                                        <a href="" class="form-check-label text-secondary"
+                                                            for="filter-type-8">Панель МДФ-шпон</a>
+                                                    </div>
+                                                    <div class="form-check fs-7 fs-sm-9 ls-sm mb-5">
+                                                        <input class="form-check-input border bg-light"
+                                                            id="filter-type-7" name="filter-type" autocomplete="off"
+                                                            type="checkbox" />
+                                                        <a href="" class="form-check-label text-secondary"
+                                                            for="filter-type-8">Панель МДФ-покрас</a>
+                                                    </div>
+                                                    <div class="form-check fs-7 fs-sm-9 ls-sm mb-5">
+                                                        <input class="form-check-input border bg-light"
+                                                            id="filter-type-7" name="filter-type" autocomplete="off"
+                                                            type="checkbox" />
+                                                        <a href="" class="form-check-label text-secondary"
+                                                            for="filter-type-8">Натуральный дуб</a>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="mb-15">
-                                                <h6 class="fw-bold fs-7 fs-md-13 mb-10">Коллекции</h6>
+                                            <div class="mb-15 ps-10 ps-lg-0">
+                                                <h6 class="fw-bold fs-10 fs-sm-12 fs-md-13 mb-10">Отделка внутри</h6>
+                                                <div class="text-secondary">
+                                                    <div class="form-check fs-7 fs-sm-9 ls-sm mb-5">
+                                                        <input class="form-check-input border bg-light"
+                                                            id="filter-type-1" name="filter-type" autocomplete="off"
+                                                            type="checkbox" />
+                                                        <a href="" class="form-check-label text-secondary"
+                                                            for="filter-type-1 ">Винилискожа</a>
+                                                    </div>
+                                                    <div class="form-check fs-7 fs-sm-9 ls-sm mb-5">
+                                                        <input class="form-check-input border bg-light"
+                                                            id="filter-type-5" name="filter-type" autocomplete="off"
+                                                            type="checkbox" />
+                                                        <a href="" class="form-check-label text-secondary"
+                                                            for="filter-type-6 ">Порошковый покрас</a>
+                                                    </div>
+                                                    <div class="form-check fs-7 fs-sm-9 ls-sm mb-5">
+                                                        <input class="form-check-input border bg-light"
+                                                            id="filter-type-7" name="filter-type" autocomplete="off"
+                                                            type="checkbox" />
+                                                        <a href="" class="form-check-label text-secondary"
+                                                            for="filter-type-8">Панель МДФ-ПВХ</a>
+                                                    </div>
+                                                    <div class="form-check fs-7 fs-sm-9 ls-sm mb-5">
+                                                        <input class="form-check-input border bg-light"
+                                                            id="filter-type-7" name="filter-type" autocomplete="off"
+                                                            type="checkbox" />
+                                                        <a href="" class="form-check-label text-secondary"
+                                                            for="filter-type-8">Панель МДФ-шпон</a>
+                                                    </div>
+                                                    <div class="form-check fs-7 fs-sm-9 ls-sm mb-5">
+                                                        <input class="form-check-input border bg-light"
+                                                            id="filter-type-7" name="filter-type" autocomplete="off"
+                                                            type="checkbox" />
+                                                        <a href="" class="form-check-label text-secondary"
+                                                            for="filter-type-8">Панель МДФ-покрас</a>
+                                                    </div>
+                                                    <div class="form-check fs-7 fs-sm-9 ls-sm mb-5">
+                                                        <input class="form-check-input border bg-light"
+                                                            id="filter-type-7" name="filter-type" autocomplete="off"
+                                                            type="checkbox" />
+                                                        <a href="" class="form-check-label text-secondary"
+                                                            for="filter-type-8">Натуральный дуб</a>
+                                                    </div>
+                                                    <div class="form-check fs-7 fs-sm-9 ls-sm mb-5">
+                                                        <input class="form-check-input border bg-light"
+                                                            id="filter-type-7" name="filter-type" autocomplete="off"
+                                                            type="checkbox" />
+                                                        <a href="" class="form-check-label text-secondary"
+                                                            for="filter-type-8">Панель с зеркалом</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mb-15 ps-10 ps-lg-0">
+                                                <h6 class="fw-bold fs-10 fs-sm-12 fs-md-13 mb-10">Комплектация</h6>
                                                 <div class=" text-secondary">
-                                                    <div class="form-check fs-9 ls-sm mb-5">
+                                                    <div class="form-check fs-7 fs-sm-9 ls-sm mb-5">
                                                         <input class="form-check-input border bg-light"
                                                             id="filter-type-12" name="filter-type" autocomplete="off"
                                                             type="checkbox" />
-                                                        <a href="" class="form-check-label text-secondary text-decoration-underline"
-                                                            for="filter-type-12">Снаружи и внутри</a>
+                                                        <a href="" class="form-check-label text-secondary"
+                                                            for="filter-type-12">Эконом</a>
                                                     </div>
                                                    
-                                                    <div class="form-check fs-9 ls-sm mb-5">
+                                                    <div class="form-check fs-7 fs-sm-9 ls-sm mb-5">
                                                         <input class="form-check-input border bg-light"
                                                             id="filter-type-13" name="filter-type" autocomplete="off"
                                                             type="checkbox" />
-                                                        <a href="" class="form-check-label text-secondary text-decoration-underline"
-                                                            for="filter-type-13 ">Панель - снаружи</a>
+                                                        <a href="" class="form-check-label text-secondary"
+                                                            for="filter-type-13 ">Премиум</a>
                                                     </div>
-                                                    <div class="form-check fs-9 ls-sm mb-5">
+                                                    <div class="form-check fs-7 fs-sm-9 ls-sm mb-5">
                                                         <input class="form-check-input border bg-light"
                                                             id="filter-type-14" name="filter-type" autocomplete="off"
                                                             type="checkbox" />
-                                                        <a href="" class="form-check-label text-secondary text-decoration-underline"
-                                                            for="filter-type-14">Панель - внутри</a>
+                                                        <a href="" class="form-check-label text-secondary"
+                                                            for="filter-type-14">Престиж</a>
+                                                    </div>
+                                                    <div class="form-check fs-7 fs-sm-9 ls-sm mb-5">
+                                                        <input class="form-check-input border bg-light"
+                                                            id="filter-type-13" name="filter-type" autocomplete="off"
+                                                            type="checkbox" />
+                                                        <a href="" class="form-check-label text-secondary"
+                                                            for="filter-type-13 ">Элит</a>
+                                                    </div>
+                                                    <div class="form-check fs-7 fs-sm-9 ls-sm mb-5">
+                                                        <input class="form-check-input border bg-light"
+                                                            id="filter-type-14" name="filter-type" autocomplete="off"
+                                                            type="checkbox" />
+                                                        <a href="" class="form-check-label text-secondary"
+                                                            for="filter-type-14">VIP</a>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="my-20 d-none d-lg-block">
-                                           
-                                                <div id="dropdown-wrapper_naznachenie"
-                                                     class="dropdown-wrapper fw-medium " tabindex="1">
-                                                     <h6 class="fw-bold fs-7 fs-md-11 mb-10 text-secondary ms-20">Панель МДФ - 10мм</h6>
-                                                    <ul class="dropdown-list ms-20 mb-8 border-0">
-                                                        <div class=" text-secondary">
-                                                            <div class="form-check fs-9 ls-sm mb-5">
+                                            <div class="mt-0 mb-0 ">
+                                                <button class="card ps-0  border-0 mb-5" type="button">
+                                                   <img src="svg/frame_18.svg" alt="">
+                                                <div class="card-img-overlay pt-11 pt-lg-6  pt-xl-5 pt-xxl-8 pt-3xl-8">
+                                                    <p class="fs-7 fs-sm-8 fw-bold">Технические двери</p>
+                                                </div>
+                                                </button>
+                                                <div id="dropdown-wrapper_naznachenie "
+                                                     class="dropdown-wrapper fw-medium " tabindex="1" data-bs-toggle="collapse" data-bs-target="list_item">
+                                                     <h6 class="fw-bold pt-2 fs-10 fs-sm-12 fs-md-13 fs-3xl-10 text-secondary  mb-10  ms-15">Противопожарные двери</h6>
+                                                    <ul id="#list_item" class="dropdown-list  mb-8 border-0 collapse show">
+                                                        <div  class="text-secondary ps-10 ps-lg-0">
+                                                            <div class="form-check fs-7 fs-sm-9 ls-sm mb-5">
                                                                 <input class="form-check-input border bg-light"
                                                                     id="filter-type-16" name="filter-type" autocomplete="off"
                                                                     type="checkbox" />
-                                                                <a href="" class="form-check-label text-secondary text-decoration-underline"
-                                                                    for="filter-type-16">Снаружи и внутри</a>
+                                                                <a href="" class="form-check-label text-secondary"
+                                                                    for="filter-type-16">Двери с отделкой и винилискойжей</a>
                                                             </div>
-                                                            <div class="form-check fs-9 ls-sm mb-4 ms-15">
+                                                            <div class="form-check fs-7 fs-sm-9 ls-sm mb-4">
                                                                 <input class="form-check-input bg-light"
                                                                     id="filter-type17" name="filter-type" autocomplete="off"
                                                                     type="checkbox" />
                                                                 <label class="form-check-label  text-secondary"
-                                                                    for="filter-type17">С пленкой ПВХ </label>
+                                                                    for="filter-type17">Двери с отделкой и винилискойжей </label>
                                                             </div>
-                                                            <div class="form-check fs-9 ls-sm mb-4 ms-15">
+                                                            <div class="form-check fs-7 fs-sm-9 ls-sm mb-4">
                                                                 <input class="form-check-input bg-light"
                                                                     id="filter-type-18" name="filter-type" autocomplete="off"
                                                                     type="checkbox" />
                                                                 <label class="form-check-label text-secondary"
-                                                                    for="filter-type-18">Шпон дерева</label>
+                                                                    for="filter-type-18">Двери с отделкой и винилискойжей</label>
                                                             </div>
-                                                            <div class="form-check fs-9 ls-sm mb-4 ms-15">
+                                                            <div class="form-check fs-7 fs-sm-9 ls-sm mb-4">
                                                                 <input class="form-check-input bg-light"
                                                                     id="filter-type-19" name="filter-type" autocomplete="off"
                                                                     type="checkbox" />
                                                                 <label class="form-check-label text-secondary"
-                                                                    for="filter-type-19">Покрас по RAL</label>
+                                                                    for="filter-type-19">Двери с отделкой и винилискойжей</label>
                                                             </div>
-                                                            <div class="form-check fs-9 ls-sm mb-5">
+                                                            <div class="form-check fs-7 fs-sm-9 ls-sm mb-5">
                                                                 <input class="form-check-input  bg-light"
                                                                     id="filter-type-21" name="filter-type" autocomplete="off"
                                                                     type="checkbox" />
-                                                                <a href="" class="form-check-label text-secondary text-decoration-underline"
-                                                                    for="filter-type-21 ">Панель - снаружи</a>
+                                                                <a href="" class="form-check-label text-secondary"
+                                                                    for="filter-type-21 ">Двери с отделкой и винилискойжей</a>
                                                             </div>
-                                                            <div class="form-check fs-9 ls-sm mb-5">
+                                                            <div class="form-check fs-7 fs-sm-9 ls-sm mb-5">
                                                                 <input class="form-check-input border bg-light"
                                                                     id="filter-type-22" name="filter-type" autocomplete="off"
                                                                     type="checkbox" />
-                                                                <a href="" class="form-check-label text-secondary text-decoration-underline"
-                                                                    for="filter-type-22 ">Панель - внутри</a>
+                                                                <a href="" class="form-check-label text-secondary"
+                                                                    for="filter-type-22 ">Двери с отделкой и винилискойжей</a>
+                                                            </div>
+                                                        </div>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="mt-0 mb-0 ">
+                                                <button class="card ps-0  border-0 mb-5" type="button">
+                                                   <img src="svg/frame_18.svg" alt="">
+                                                <div class="card-img-overlay pt-11 pt-lg-6  pt-xl-5 pt-xxl-8 pt-3xl-8">
+                                                    <p class="fs-7 fs-sm-8 fw-bold">Изделия из металла</p>
+                                                </div>
+                                                </button>
+                                                <div id="dropdown-wrapper_naznachenie "
+                                                     class="dropdown-wrapper fw-medium " tabindex="1" data-bs-toggle="collapse" data-bs-target="list_item">
+                                                     <h6 class="fw-bold pt-2 fs-10 fs-sm-12 fs-md-13 fs-3xl-10 text-secondary  mb-10  ms-15">Сварные решетки на окна</h6>
+                                                    <ul id="#list_item" class="dropdown-list  mb-8 border-0 collapse show">
+                                                        <div  class="text-secondary ps-10 ps-lg-0">
+                                                            <div class="form-check fs-7 fs-sm-9 ls-sm mb-5">
+                                                                <input class="form-check-input border bg-light"
+                                                                    id="filter-type-16" name="filter-type" autocomplete="off"
+                                                                    type="checkbox" />
+                                                                <a href="" class="form-check-label text-secondary"
+                                                                    for="filter-type-16">Двери с отделкой и винилискойжей</a>
+                                                            </div>
+                                                            <div class="form-check fs-7 fs-sm-9 ls-sm mb-4">
+                                                                <input class="form-check-input bg-light"
+                                                                    id="filter-type17" name="filter-type" autocomplete="off"
+                                                                    type="checkbox" />
+                                                                <label class="form-check-label  text-secondary"
+                                                                    for="filter-type17">Двери с отделкой и винилискойжей </label>
+                                                            </div>
+                                                            <div class="form-check fs-7 fs-sm-9 ls-sm mb-4">
+                                                                <input class="form-check-input bg-light"
+                                                                    id="filter-type-18" name="filter-type" autocomplete="off"
+                                                                    type="checkbox" />
+                                                                <label class="form-check-label text-secondary"
+                                                                    for="filter-type-18">Двери с отделкой и винилискойжей</label>
+                                                            </div>
+                                                            <div class="form-check fs-7 fs-sm-9 ls-sm mb-4">
+                                                                <input class="form-check-input bg-light"
+                                                                    id="filter-type-19" name="filter-type" autocomplete="off"
+                                                                    type="checkbox" />
+                                                                <label class="form-check-label text-secondary"
+                                                                    for="filter-type-19">Двери с отделкой и винилискойжей</label>
+                                                            </div>
+                                                            <div class="form-check fs-7 fs-sm-9 ls-sm mb-5">
+                                                                <input class="form-check-input  bg-light"
+                                                                    id="filter-type-21" name="filter-type" autocomplete="off"
+                                                                    type="checkbox" />
+                                                                <a href="" class="form-check-label text-secondary"
+                                                                    for="filter-type-21 ">Двери с отделкой и винилискойжей</a>
+                                                            </div>
+                                                            <div class="form-check fs-7 fs-sm-9 ls-sm mb-5">
+                                                                <input class="form-check-input border bg-light"
+                                                                    id="filter-type-22" name="filter-type" autocomplete="off"
+                                                                    type="checkbox" />
+                                                                <a href="" class="form-check-label text-secondary"
+                                                                    for="filter-type-22 ">Двери с отделкой и винилискойжей</a>
+                                                            </div>
+                                                        </div>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="mt-0 mb-0 ">
+                                                <button class="card ps-0  border-0 mb-5" type="button">
+                                                   <img src="svg/frame_18.svg" alt="">
+                                                <div class="card-img-overlay pt-11 pt-lg-6  pt-xl-5 pt-xxl-8 pt-3xl-8">
+                                                    <p class="fs-7 fs-sm-8 fw-bold">Художественная ковка</p>
+                                                </div>
+                                                </button>
+                                                <div id="dropdown-wrapper_naznachenie "
+                                                     class="dropdown-wrapper fw-medium " tabindex="1" data-bs-toggle="collapse" data-bs-target="list_item">
+                                                     <h6 class="fw-bold pt-2 fs-10 fs-sm-12 fs-md-13 fs-3xl-10 text-secondary  mb-10  ms-15">Кованые решетки на окна</h6>
+                                                    <ul id="#list_item" class="dropdown-list  mb-8 border-0 collapse show">
+                                                        <div  class="text-secondary ps-10 ps-lg-0">
+                                                            <div class="form-check fs-7 fs-sm-9 ls-sm mb-5">
+                                                                <input class="form-check-input border bg-light"
+                                                                    id="filter-type-16" name="filter-type" autocomplete="off"
+                                                                    type="checkbox" />
+                                                                <a href="" class="form-check-label text-secondary"
+                                                                    for="filter-type-16">Двери с отделкой и винилискойжей</a>
+                                                            </div>
+                                                            <div class="form-check fs-7 fs-sm-9 ls-sm mb-4">
+                                                                <input class="form-check-input bg-light"
+                                                                    id="filter-type17" name="filter-type" autocomplete="off"
+                                                                    type="checkbox" />
+                                                                <label class="form-check-label  text-secondary"
+                                                                    for="filter-type17">Двери с отделкой и винилискойжей </label>
+                                                            </div>
+                                                            <div class="form-check fs-7 fs-sm-9 ls-sm mb-4">
+                                                                <input class="form-check-input bg-light"
+                                                                    id="filter-type-18" name="filter-type" autocomplete="off"
+                                                                    type="checkbox" />
+                                                                <label class="form-check-label text-secondary"
+                                                                    for="filter-type-18">Двери с отделкой и винилискойжей</label>
+                                                            </div>
+                                                            <div class="form-check fs-7 fs-sm-9 ls-sm mb-4">
+                                                                <input class="form-check-input bg-light"
+                                                                    id="filter-type-19" name="filter-type" autocomplete="off"
+                                                                    type="checkbox" />
+                                                                <label class="form-check-label text-secondary"
+                                                                    for="filter-type-19">Двери с отделкой и винилискойжей</label>
+                                                            </div>
+                                                            <div class="form-check fs-7 fs-sm-9 ls-sm mb-5">
+                                                                <input class="form-check-input  bg-light"
+                                                                    id="filter-type-21" name="filter-type" autocomplete="off"
+                                                                    type="checkbox" />
+                                                                <a href="" class="form-check-label text-secondary"
+                                                                    for="filter-type-21 ">Двери с отделкой и винилискойжей</a>
+                                                            </div>
+                                                            <div class="form-check fs-7 fs-sm-9 ls-sm mb-5">
+                                                                <input class="form-check-input border bg-light"
+                                                                    id="filter-type-22" name="filter-type" autocomplete="off"
+                                                                    type="checkbox" />
+                                                                <a href="" class="form-check-label text-secondary"
+                                                                    for="filter-type-22 ">Двери с отделкой и винилискойжей</a>
                                                             </div>
                                                         </div>
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div class=" border-light  mt-0  pt-0">
-                                                <div class="mt-15">
+                                                <div class="mt-0">
                                                     <div class="vstack gap-5">
                                                         <button
                                                             class="btn btn-outline-black btn-lg btn-wide-xl d-lg-none d-block w-lg-auto w-100"
@@ -613,7 +808,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-9   mt-6 mt-md-0">
+                    <div class="col-lg-9   mt-6 mt-md-0 ">
 
                     <div class="container container_metal">
 
@@ -2974,12 +3169,12 @@
                                <p class="mb-0 fs-7 fs-sm-7 fs-lg-8 fw-bolder text-dark">Минимальная цена</p>
                              </div>
                              </div>
-                             <div class="row  rounded-3  mx-0">
-                                <div class="col-8 border-end d-flex align-items-center  py-4">
-                                    <p class="mb-0 fs-7 fs-sm-7 fs-lg-8 text-muted">Установка одностворчатой двери без изменения проема</p>
+                             <div class="row  rounded-3  mx-0 bg-white bg-white">
+                                <div class="col-8  border-end d-flex align-items-center  py-4">
+                                    <p class="mb-0 fs-7 fs-sm-7 fs-lg-8 ">Установка одностворчатой двери без изменения проема</p>
                                   </div>
                                   <div class="col-4 d-flex align-items-center  py-4">
-                                    <p class="mb-0 fs-7 fs-sm-7 mt-0 mt-sm-0  fs-lg-8 text-muted">3500 р.</p>
+                                    <p class="mb-0 fs-7 fs-sm-7 mt-0 mt-sm-0  fs-lg-8">3500 р.</p>
                                   </div>
                             </div>      
                             <div class="row  rounded-3  mx-0">
@@ -2990,12 +3185,12 @@
                                <p class="mb-0 fs-7 fs-sm-7 fs-lg-8 fw-medium text-dark">4000 р.</p>
                              </div>
                              </div>
-                             <div class="row  rounded-3  mx-0">
-                                <div class="col-8 border-end d-flex align-items-center  py-4">
-                                    <p class="mb-0 fs-7 fs-sm-7 fs-lg-8 text-muted">Установка двупольной двери без изменения проема</p>
+                             <div class="row  rounded-3  mx-0 bg-white">
+                                <div class="col-8 border-end d-flex align-items-center   py-4">
+                                    <p class="mb-0 fs-7 fs-sm-7 fs-lg-8">Установка двупольной двери без изменения проема</p>
                                   </div>
                                   <div class="col-4 d-flex align-items-center  py-4">
-                                    <p class="mb-0 fs-7 fs-sm-7  fs-lg-8 text-muted">4500 р.</p>
+                                    <p class="mb-0 fs-7 fs-sm-7  fs-lg-8">4500 р.</p>
                                   </div>
                             </div>      
                             <div class="row  rounded-3  mx-0">
@@ -3006,12 +3201,12 @@
                                <p class="mb-0 fs-7 fs-sm-7 fs-lg-8 fw-medium text-dark">от 500 р.</p>
                              </div>
                              </div>
-                             <div class="row  rounded-3  mx-0">
-                                <div class="col-8 border-end d-flex align-items-center  py-4">
-                                    <p class="mb-0 fs-7 fs-sm-7 fs-lg-8 text-muted">Доставка за пределы кольцевой</p>
+                             <div class="row  rounded-3  mx-0 bg-white">
+                                <div class="col-8 border-end d-flex align-items-center   py-4">
+                                    <p class="mb-0 fs-7 fs-sm-7 fs-lg-8">Доставка за пределы кольцевой</p>
                                   </div>
                                   <div class="col-4 d-flex align-items-center  py-4">
-                                    <p class="mb-0 fs-7 fs-sm-7 mt-0 mt-sm-0  fs-lg-8 text-muted">от 1000 р.</p>
+                                    <p class="mb-0 fs-7 fs-sm-7 mt-0 mt-sm-0  fs-lg-8">от 1000 р.</p>
                                   </div>
                             </div>      
                             <div class="row  rounded-3  mx-0">
@@ -3022,12 +3217,12 @@
                                <p class="mb-0 fs-7 fs-sm-7 fs-lg-8 fw-medium text-dark">700 р.</p>
                              </div>
                              </div>
-                             <div class="row  rounded-3  mx-0">
+                             <div class="row  rounded-3  mx-0 bg-white">
                                 <div class="col-8 border-end  py-4 d-flex align-items-center">
-                                    <p class="mb-0 fs-7 fs-sm-7 fs-lg-8 text-muted">Демонтаж железной двери с фрамугой</p>
+                                    <p class="mb-0 fs-7 fs-sm-7 fs-lg-8">Демонтаж железной двери с фрамугой</p>
                                   </div>
                                   <div class="col-4  py-4 d-flex align-items-center">
-                                    <p class="mb-0 fs-7 fs-sm-7   fs-lg-8 text-muted">1000 р.</p>
+                                    <p class="mb-0 fs-7 fs-sm-7   fs-lg-8">1000 р.</p>
                                   </div>
                             </div>      
                             <div class="row  rounded-3  mx-0">
@@ -3038,12 +3233,12 @@
                                <p class="mb-0 fs-7 fs-sm-7 fs-lg-8 fw-medium text-dark">500 р. м.п.</p>
                              </div>
                              </div>
-                             <div class="row  rounded-3  mx-0">
+                             <div class="row  rounded-3  mx-0 bg-white">
                                 <div class="col-8 border-end  py-4 d-flex align-items-center">
-                                    <p class="mb-0 fs-7 fs-sm-7 fs-lg-8 text-muted">Расширение монолитного проёма</p>
+                                    <p class="mb-0 fs-7 fs-sm-7 fs-lg-8">Расширение монолитного проёма</p>
                                   </div>
                                   <div class="col-4  py-4 d-flex align-items-center">
-                                    <p class="mb-0 fs-7 fs-sm-7   fs-lg-8 text-muted">750 р. м.п.</p>
+                                    <p class="mb-0 fs-7 fs-sm-7   fs-lg-8">750 р. м.п.</p>
                                   </div>
                             </div>      
                             <div class="row  rounded-3  mx-0">
@@ -3054,12 +3249,12 @@
                                <p class="mb-0 fs-7 fs-sm-7 fs-lg-8 fw-medium text-dark">500 р.</p>
                              </div>
                              </div>
-                             <div class="row  rounded-3  mx-0">
+                             <div class="row  rounded-3  mx-0 bg-white">
                                 <div class="col-8 border-end d-flex align-items-center  py-4">
-                                    <p class="mb-0 fs-7 fs-sm-7 fs-lg-8 text-muted">Пронос от авто до лифта или к месту монтажа более 10 метров</p>
+                                    <p class="mb-0 fs-7 fs-sm-7 fs-lg-8">Пронос от авто до лифта или к месту монтажа более 10 метров</p>
                                   </div>
                                   <div class="col-4 d-flex align-items-center  py-4">
-                                    <p class="mb-0 fs-7 fs-sm-7  fs-lg-8 text-muted">250 р.</p>
+                                    <p class="mb-0 fs-7 fs-sm-7  fs-lg-8">250 р.</p>
                                   </div>
                             </div>   
                             <div class="row  rounded-3  mx-0">
@@ -3070,12 +3265,12 @@
                                <p class="mb-0 fs-7 fs-sm-7 fs-lg-8 fw-medium text-dark">100 р. за этаж</p>
                              </div>
                              </div>
-                             <div class="row  rounded-3  mx-0">
+                             <div class="row  rounded-3  mx-0 bg-white">
                                 <div class="col-8 border-end d-flex align-items-center  py-4">
-                                    <p class="mb-0 fs-7 fs-sm-7 fs-lg-8 text-muted">Выезд мастера-замерщика</p>
+                                    <p class="mb-0 fs-7 fs-sm-7 fs-lg-8">Выезд мастера-замерщика</p>
                                   </div>
                                   <div class="col-4 d-flex align-items-center  py-4">
-                                    <p class="mb-0 fs-7 fs-sm-7   fs-lg-8 text-muted">Бесплатно</p>
+                                    <p class="mb-0 fs-7 fs-sm-7   fs-lg-8">Бесплатно</p>
                                   </div>
                             </div>
                         </div>          
@@ -3101,7 +3296,7 @@
                                 <p class="mb-0 fs-7 fs-sm-7 fs-lg-8 fw-medium text-dark fw-bolder">Минимальная цена</p>
                               </div>
                              </div>
-                             <div class="row  rounded-3 mx-0">
+                             <div class="row  rounded-3 mx-0 bg-white">
                                 <div class="col-4 border-end rounded-start-2 py-4 ">
                                     <p class="mb-0 fs-7 fs-sm-7 fs-lg-8 fw-medium text-dark">Ламинат</p>
                               </div>
@@ -3123,7 +3318,7 @@
                                 <p class="mb-0 fs-7 fs-sm-7 fs-lg-8 fw-medium text-dark">от 15 500 р.</p>
                               </div>
                              </div>
-                             <div class="row  rounded-3 mx-0">
+                             <div class="row  rounded-3 mx-0 bg-white">
                                 <div class="col-4 border-end rounded-start-2 py-4 ">
                                     <p class="mb-0 fs-7 fs-sm-7 fs-lg-8 fw-medium text-dark">Ламинат</p>
                               </div>
@@ -3145,7 +3340,7 @@
                                 <p class="mb-0 fs-7 fs-sm-7 fs-lg-8 fw-medium text-dark">от 15 500 р.</p>
                               </div>
                              </div>
-                             <div class="row  rounded-3 mx-0">
+                             <div class="row  rounded-3 mx-0 bg-white">
                                 <div class="col-4 border-end rounded-start-2 py-4 ">
                                     <p class="mb-0 fs-7 fs-sm-7 fs-lg-8 fw-medium text-dark">Ламинат</p>
                               </div>
@@ -3167,7 +3362,7 @@
                                 <p class="mb-0 fs-7 fs-sm-7 fs-lg-8 fw-medium text-dark">от 15 500 р.</p>
                               </div>
                              </div>
-                             <div class="row  rounded-3 mx-0">
+                             <div class="row  rounded-3 mx-0 bg-white">
                                 <div class="col-4 border-end rounded-start-2 py-4 ">
                                     <p class="mb-0 fs-7 fs-sm-7 fs-lg-8 fw-medium text-dark">Ламинат</p>
                               </div>
@@ -3189,7 +3384,7 @@
                                 <p class="mb-0 fs-7 fs-sm-7 fs-lg-8 fw-medium text-dark">от 15 500 р.</p>
                               </div>
                              </div>
-                             <div class="row  rounded-3 mx-0">
+                             <div class="row  rounded-3 mx-0 bg-white">
                                 <div class="col-4 border-end rounded-start-2 py-4 ">
                                     <p class="mb-0 fs-7 fs-sm-7 fs-lg-8 fw-medium text-dark">Ламинат</p>
                               </div>
@@ -3211,7 +3406,7 @@
                                 <p class="mb-0 fs-7 fs-sm-7 fs-lg-8 fw-medium text-dark">от 15 500 р.</p>
                               </div>
                              </div>
-                             <div class="row  rounded-3 mx-0">
+                             <div class="row  rounded-3 mx-0 bg-white">
                                 <div class="col-4 border-end rounded-start-2 py-4 ">
                                     <p class="mb-0 fs-7 fs-sm-7 fs-lg-8 fw-medium text-dark">Ламинат</p>
                               </div>
