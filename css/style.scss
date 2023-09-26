@@ -31,9 +31,9 @@
         font-weight: 300;
     }
 
- body {
+/*  body {
     background-color: rgb(68, 68, 68);
-}  
+}   */
 
 //MAIN COLORS
 :root {
@@ -155,10 +155,10 @@ a {
 
 
 
-/* .bg_pattern{
+.bg_pattern{
         background-image: url(../img/pattern.png);
         background-repeat: repeat;
-    }   */
+    }  
 
 //HEADER
 header{
@@ -2305,8 +2305,8 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
                     .container_catalog{
                         .col-lg-3 {
                         img {
-                            width: 100%;
-                            height: 60px;
+                            width: 101%;
+                            height: 43px;
                         }
                         }
                 .container_metal{
@@ -2355,14 +2355,21 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
                 .carousel-control-next{
                     right: -20px;
                 }
+                .prev {
+                    margin-left: -20px;
+                  }
+
+                .next {
+                    margin-right: -20px;
+                  }
             }
 
              .container_otzivi{
                 .carousel-control-prev{
-                    left:-20px;
+                    left:-8px;
                 }
                 .carousel-control-next{
-                    right: -20px;
+                    right: -8px;
                 }
             
             }
