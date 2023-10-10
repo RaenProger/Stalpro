@@ -21,9 +21,10 @@
   src: url("../fonts/inter/Inter-Light.otf") format("OpenType"), url("../fonts/inter/Inter-Light.ttf") format("truetype");
   font-weight: 300;
 }
-/*  body {
-    background-color: rgb(68, 68, 68);
-}   */
+body {
+  background-color: rgb(68, 68, 68);
+}
+
 :root {
   --custom-red: #E10148;
 }
@@ -125,11 +126,10 @@ input {
   background: transparent;
 }
 
-.bg_pattern {
-  background-image: url(../img/pattern.png);
-  background-repeat: repeat;
-}
-
+/* .bg_pattern{
+        background-image: url(../img/pattern.png);
+        background-repeat: repeat;
+    }   */
 header {
   box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
 }
@@ -153,19 +153,34 @@ header {
 
 .container_catalog .container_besplatniy .input_item1 {
   height: 74px;
-  width: 340px;
+  width: 380px;
 }
 .container_catalog .container_besplatniy .input_item2 {
   height: 74px;
-  width: 330px;
+  width: 360px;
 }
 .container_catalog .container_besplatniy .input_item3 {
   height: 74px;
-  width: 313px;
+  width: 323px;
 }
 .container_catalog .container_besplatniy .zamer_item {
   width: 130%;
   margin-top: -41px;
+}
+.container_catalog .container_consultation .input_item1 {
+  height: 110px;
+  width: 306px;
+}
+.container_catalog .container_consultation .input_item2 {
+  height: 110px;
+  width: 311px;
+}
+.container_catalog .container_consultation .input_item3 {
+  height: 114px;
+  width: 310px;
+}
+.container_catalog .container_consultation .custom_font {
+  margin-left: -25px;
 }
 .container_catalog .container_collelcii .carousel-control-prev {
   left: -120px;
@@ -182,6 +197,12 @@ header {
 
 .bg_baner {
   background-image: url("../img/baner_catalog_category.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg_baner2 {
+  background-image: url("../img/baner_3.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -330,19 +351,6 @@ header {
   fill: red;
 }
 
-.container_consultation .input_item1 {
-  height: 104px;
-  width: 590px;
-}
-.container_consultation .input_item2 {
-  height: 104px;
-  width: 534px;
-}
-.container_consultation .input_item3 {
-  height: 105px;
-  width: 475px;
-}
-
 .container_technicheskie .image_item:hover {
   cursor: pointer;
   transition: 0.3s;
@@ -366,22 +374,6 @@ header {
 .container_besplatniy .input_item3 {
   height: 105px;
   width: 475px;
-}
-
-.container_consultation_catalog_category .input_item1 {
-  height: 104px;
-  width: 301px;
-}
-.container_consultation_catalog_category .input_item2 {
-  height: 109px;
-  width: 305px;
-}
-.container_consultation_catalog_category .input_item3 {
-  height: 105px;
-  width: 305px;
-}
-.container_consultation_catalog_category .custom_font {
-  margin-left: -25px;
 }
 
 .zamerchik_item {
@@ -429,6 +421,19 @@ header {
 
 .container_kak_zakazat .mb-0 {
   color: var(--custom-red);
+}
+
+.container_consultation .input_item1 {
+  height: 104px;
+  width: 590px;
+}
+.container_consultation .input_item2 {
+  height: 104px;
+  width: 534px;
+}
+.container_consultation .input_item3 {
+  height: 105px;
+  width: 475px;
 }
 
 .bg_section_4 {
@@ -555,15 +560,15 @@ header {
   }
   .container_catalog .container_besplatniy .input_item1 {
     height: 57px;
-    width: 228px;
+    width: 248px;
   }
   .container_catalog .container_besplatniy .input_item2 {
     height: 59px;
-    width: 234px;
+    width: 245px;
   }
   .container_catalog .container_besplatniy .input_item3 {
     height: 58px;
-    width: 233px;
+    width: 240px;
   }
   .container_catalog .container_besplatniy .zamer_item {
     width: 130%;
@@ -595,6 +600,21 @@ header {
   .container_catalog .container_otzivi .carousel-control-next {
     right: -100px;
   }
+  .container_catalog .container_consultation .input_item1 {
+    width: 234px;
+    height: 76px;
+  }
+  .container_catalog .container_consultation .input_item2 {
+    width: 237px;
+    height: 76px;
+  }
+  .container_catalog .container_consultation .input_item3 {
+    width: 240px;
+    height: 76px;
+  }
+  .container_catalog .container_consultation .custom_font {
+    margin-left: -10px;
+  }
   .container_besplatniy .input_item {
     width: 371px;
     height: 76px;
@@ -604,21 +624,6 @@ header {
   }
   .container_photos .ratio-4x4 {
     min-height: 200px !important;
-  }
-  .container_consultation_catalog_category .input_item1 {
-    width: 229px;
-    height: 76px;
-  }
-  .container_consultation_catalog_category .input_item2 {
-    width: 233px;
-    height: 76px;
-  }
-  .container_consultation_catalog_category .input_item3 {
-    width: 232px;
-    height: 76px;
-  }
-  .container_consultation_catalog_category .custom_font {
-    margin-left: -10px;
   }
   .container_collelcii .carousel-inner .top_frame__item {
     width: 298px;
@@ -677,16 +682,16 @@ header {
     height: 31px;
   }
   .container_catalog .container_besplatniy .input_item1 {
-    height: 52px;
-    width: 192px;
+    height: 50px;
+    width: 200px;
   }
   .container_catalog .container_besplatniy .input_item2 {
-    height: 53px;
-    width: 197px;
+    height: 50px;
+    width: 203px;
   }
   .container_catalog .container_besplatniy .input_item3 {
     height: 50px;
-    width: 197px;
+    width: 200px;
   }
   .container_catalog .container_besplatniy .zamer_item {
     width: 130%;
@@ -721,6 +726,21 @@ header {
   }
   .container_catalog .container_otzivi .carousel-control-next {
     right: -90px;
+  }
+  .container_catalog .container_consultation .input_item1 {
+    width: 200px;
+    height: 71px;
+  }
+  .container_catalog .container_consultation .input_item2 {
+    width: 203px;
+    height: 71px;
+  }
+  .container_catalog .container_consultation .input_item3 {
+    width: 202px;
+    height: 71px;
+  }
+  .container_catalog .container_consultation .custom_font {
+    margin-left: -20px;
   }
   .arrow_item {
     left: -40px;
@@ -759,21 +779,6 @@ header {
   .container_consultation .input_item {
     width: 300px;
     height: 71px;
-  }
-  .container_consultation_catalog_category .input_item1 {
-    width: 195px;
-    height: 71px;
-  }
-  .container_consultation_catalog_category .input_item2 {
-    width: 198px;
-    height: 71px;
-  }
-  .container_consultation_catalog_category .input_item3 {
-    width: 198px;
-    height: 71px;
-  }
-  .container_consultation_catalog_category .custom_font {
-    margin-left: -20px;
   }
   .container_technicheskie .mb-10 {
     max-width: 35%;
@@ -884,16 +889,16 @@ header {
     height: 27px;
   }
   .container_catalog .container_besplatniy .input_item1 {
-    height: 42px;
+    height: 44px;
     width: 164px;
   }
   .container_catalog .container_besplatniy .input_item2 {
-    height: 43px;
-    width: 165px;
+    height: 45px;
+    width: 168px;
   }
   .container_catalog .container_besplatniy .input_item3 {
     height: 43px;
-    width: 164px;
+    width: 168px;
   }
   .container_catalog .container_besplatniy .zamer_item {
     width: 120%;
@@ -929,6 +934,21 @@ header {
   }
   .container_catalog .container_otzivi .carousel-control-next {
     right: -80px;
+  }
+  .container_catalog .container_consultation .input_item1 {
+    width: 165px;
+    height: 80px;
+  }
+  .container_catalog .container_consultation .input_item2 {
+    width: 173px;
+    height: 80px;
+  }
+  .container_catalog .container_consultation .input_item3 {
+    width: 170px;
+    height: 80px;
+  }
+  .container_catalog .container_consultation .custom_font {
+    margin-left: -20px;
   }
   .container_consultation .mt-10 {
     width: 80%;
@@ -1018,21 +1038,6 @@ header {
     width: 180px;
     height: 20px;
   }
-  .container_consultation_catalog_category .input_item1 {
-    width: 162px;
-    height: 80px;
-  }
-  .container_consultation_catalog_category .input_item2 {
-    width: 166px;
-    height: 80px;
-  }
-  .container_consultation_catalog_category .input_item3 {
-    width: 165px;
-    height: 80px;
-  }
-  .container_consultation_catalog_category .custom_font {
-    margin-left: 0px;
-  }
 }
 @media (max-width: 992px) {
   .bg_section {
@@ -1121,6 +1126,21 @@ header {
   .container_catalog .container_metal .bg_white_button {
     width: 162px;
     height: 48px;
+  }
+  .container_catalog .container_consultation .input_item1 {
+    width: 158px;
+    height: 70px;
+  }
+  .container_catalog .container_consultation .input_item2 {
+    width: 160px;
+    height: 70px;
+  }
+  .container_catalog .container_consultation .input_item3 {
+    width: 157px;
+    height: 70px;
+  }
+  .container_catalog .container_consultation .custom_font {
+    margin-left: 0px;
   }
   .container_consultation .mt-10 {
     width: 80%;
