@@ -31,9 +31,9 @@
         font-weight: 300;
     }
 
- body {
+/*  body {
     background-color: rgb(68, 68, 68);
-}  
+}   */
 
 //MAIN COLORS
 :root {
@@ -86,6 +86,7 @@
     fill: #E10148;
     /* новый цвет при наведении */
 }
+
 
 .white_button:hover  {
     stroke: #dbe0eb;
@@ -153,6 +154,9 @@ a {
 }
 
 
+.cursor_pointer{
+    cursor: pointer;
+}
 
 
 /* .bg_pattern{
@@ -244,6 +248,15 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
         }
         .carousel-control-next{
             right: -120px;
+        }
+    }
+
+    .container_product{
+        .carousel-control-prev{
+            left:0px;
+        }
+        .carousel-control-next{
+            right:0px;
         }
     }
   }
@@ -354,7 +367,7 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
                 }
 
                 .dropdown-wrapper.is-active .dropdown-list {
-                    max-height: 400px;
+                    max-height: 800px;
                 }
 
 
@@ -587,7 +600,7 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
                     color: white;
                 }
 
-                .mt-20:hover{
+                .mt-md-20:hover{
                     cursor: pointer;
                     transition: 0.3s;
                     transform: scale(1.1);
@@ -646,6 +659,33 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
                     background-repeat: no-repeat;
                     background-size: cover;
                 }
+
+
+
+                   //KOVANNIE_RESHETKI
+
+                   .bg_section_8{
+                    background-image: url('../img/background_8.png');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+
+                  //VHODNIE_RESHETKI
+
+                  .bg_section_9{
+                    background-image: url('../img/background_9.png');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                //VHODNIE_DVERI
+
+                .bg-secondary_custom{
+                    background-color: #fffbfbeb;
+                    min-height: 320px;
+                }
+
 
 
         //OTZIVI
@@ -2384,11 +2424,11 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
                     right: -20px;
                 }
                 .prev {
-                    margin-left: -20px;
+                    margin-left: -1px;
                   }
 
                 .next {
-                    margin-right: -20px;
+                    margin-right: -1px;
                   }
             }
 
